@@ -1,0 +1,25 @@
+8192KB memory detected, 1674 pages in freelist, 1048576 bytes in kernel heap
+Initializing IDT...
+Initializing timer...
+Delay loop: 14642 iterations per tick
+Initializing keyboard...
+Welcome to GeekOS!
+Hello This is Lazymonkey's first message by GeekOS!
+You can input anything by your fingers...^_^
+Control-d can break your input
+ß
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,524 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AMBER	screen.h	21;"	d
+ASCII_BS	keyboard.h	118;"	d
+ASCII_ESC	keyboard.h	117;"	d
+ATTRIB	screen.h	24;"	d
+Argument_Block	argblock.h	/^struct Argument_Block {$/;"	s
+BLACK	screen.h	15;"	d
+BLOCKDEV_MAX_NAME_LEN	fileio.h	30;"	d
+BLOCK_READ	blockdev.h	/^    BLOCK_READ, BLOCK_WRITE$/;"	e	enum:Request_Type
+BLOCK_WRITE	blockdev.h	/^    BLOCK_READ, BLOCK_WRITE$/;"	e	enum:Request_Type
+BLUE	screen.h	16;"	d
+BRIGHT	screen.h	23;"	d
+BSS_END	defs.h	50;"	d
+BSS_END	defs.h	53;"	d
+BSS_START	defs.h	49;"	d
+BSS_START	defs.h	52;"	d
+Begin_Int_Atomic	int.h	/^static __inline__ bool Begin_Int_Atomic(void) $/;"	f
+Block_Device	blockdev.h	/^struct Block_Device {$/;"	s
+Block_Device_Ops	blockdev.h	/^struct Block_Device_Ops {$/;"	s
+Block_Request	blockdev.h	/^struct Block_Request {$/;"	s
+Boot_Info	bootinfo.h	/^struct Boot_Info {$/;"	s
+COMPLETED	blockdev.h	/^    PENDING, COMPLETED, ERROR$/;"	e	enum:Request_State
+CRT_ADDR_REG	screen.h	39;"	d
+CRT_CURSOR_LOC_HIGH_REG	screen.h	41;"	d
+CRT_CURSOR_LOC_LOW_REG	screen.h	42;"	d
+CRT_DATA_REG	screen.h	40;"	d
+CYAN	screen.h	18;"	d
+Check_Range_Proper	range.h	/^Check_Range_Proper(ulong_t start, ulong_t size)$/;"	f
+Check_Range_Under	range.h	/^Check_Range_Under(ulong_t start, ulong_t size, ulong_t max)$/;"	f
+Close	blockdev.h	/^    int (*Close)(struct Block_Device *dev);$/;"	m	struct:Block_Device_Ops
+Close	vfs.h	/^    int (*Close)(struct File *file);$/;"	m	struct:File_Ops
+Condition	synch.h	/^struct Condition {$/;"	s
+Create_Directory	vfs.h	/^    int (*Create_Directory)(struct Mount_Point *mountPoint, const char *path);$/;"	m	struct:Mount_Point_Ops
+DEFINE_LINK	list.h	28;"	d
+DEFINE_LIST	list.h	19;"	d
+DEF_SYSCALL	syscall.h	75;"	d
+DMA_Direction	dma.h	/^enum DMA_Direction {$/;"	g
+DMA_READ	dma.h	/^    DMA_READ,$/;"	e	enum:DMA_Direction
+DMA_WRITE	dma.h	/^    DMA_WRITE$/;"	e	enum:DMA_Direction
+Delete	vfs.h	/^    int (*Delete)(struct Mount_Point *mountPoint, const char *path);$/;"	m	struct:Mount_Point_Ops
+Disable_Interrupts	int.h	110;"	d
+EACCESS	errno.h	28;"	d
+EBUSY	errno.h	23;"	d
+EEXIST	errno.h	32;"	d
+EFLAGS_IF	int.h	85;"	d
+EINVALID	errno.h	29;"	d
+EINVALIDFS	errno.h	27;"	d
+EIO	errno.h	22;"	d
+EMFILE	errno.h	30;"	d
+ENAMETOOLONG	errno.h	26;"	d
+ENODEV	errno.h	21;"	d
+ENOEXEC	errno.h	35;"	d
+ENOFILESYS	errno.h	25;"	d
+ENOMEM	errno.h	24;"	d
+ENOSPACE	errno.h	33;"	d
+ENOTDIR	errno.h	31;"	d
+ENOTFOUND	errno.h	19;"	d
+EPIPE	errno.h	34;"	d
+ERROR	blockdev.h	/^    PENDING, COMPLETED, ERROR$/;"	e	enum:Request_State
+EUNSPECIFIED	errno.h	18;"	d
+EUNSUPPORTED	errno.h	20;"	d
+EXE_MAX_SEGMENTS	elf.h	75;"	d
+Enable_Interrupts	int.h	123;"	d
+End_Int_Atomic	int.h	/^static __inline__ void End_Int_Atomic(bool iflag)$/;"	f
+Enqueue_Thread	kthread.h	/^static __inline__ void Enqueue_Thread(struct Thread_Queue *queue, struct Kernel_Thread *kthread) {$/;"	f
+Exe_Format	elf.h	/^struct Exe_Format {$/;"	s
+Exe_Segment	elf.h	/^struct Exe_Segment {$/;"	s
+FAT_ENTRY_EOF	pfat.h	47;"	d
+FAT_ENTRY_FREE	pfat.h	46;"	d
+FIRST_EXCEPTION	idt.h	23;"	d
+FIRST_EXTERNAL_INT	idt.h	29;"	d
+FStat	vfs.h	/^    int (*FStat)(struct File *file, struct VFS_File_Stat *stat);$/;"	m	struct:File_Ops
+File	vfs.h	/^struct File {$/;"	s
+File_Ops	vfs.h	/^struct File_Ops {$/;"	s
+Filesystem_Ops	vfs.h	/^struct Filesystem_Ops {$/;"	s
+Format	vfs.h	/^    int (*Format)(struct Block_Device *blockDev);$/;"	m	struct:Filesystem_Ops
+GEEKOS_ARGBLOCK_H	argblock.h	11;"	d
+GEEKOS_BITSET_H	bitset.h	12;"	d
+GEEKOS_BLOCKDEV_H	blockdev.h	12;"	d
+GEEKOS_BOOTINFO_H	bootinfo.h	11;"	d
+GEEKOS_CRC32_H	crc32.h	2;"	d
+GEEKOS_DEFS_H	defs.h	11;"	d
+GEEKOS_DMA_H	dma.h	11;"	d
+GEEKOS_ELF_H	elf.h	12;"	d
+GEEKOS_ERRNO_H	errno.h	11;"	d
+GEEKOS_FILEIO_H	fileio.h	12;"	d
+GEEKOS_FLOPPY_H	floppy.h	11;"	d
+GEEKOS_GDT_H	gdt.h	11;"	d
+GEEKOS_IDE_H	ide.h	11;"	d
+GEEKOS_IDT_H	idt.h	11;"	d
+GEEKOS_INT_H	int.h	17;"	d
+GEEKOS_IO_H	io.h	11;"	d
+GEEKOS_IRQ_H	irq.h	11;"	d
+GEEKOS_KASSERT_H	kassert.h	11;"	d
+GEEKOS_KEYBOARD_H	keyboard.h	11;"	d
+GEEKOS_KTHREAD_H	kthread.h	11;"	d
+GEEKOS_KTYPES_H	ktypes.h	11;"	d
+GEEKOS_LIST_H	list.h	11;"	d
+GEEKOS_MALLOC_H	malloc.h	11;"	d
+GEEKOS_MEM_H	mem.h	12;"	d
+GEEKOS_PFAT_H	pfat.h	12;"	d
+GEEKOS_RANGE_H	range.h	11;"	d
+GEEKOS_SCREEN_H	screen.h	11;"	d
+GEEKOS_SEGMENT_H	segment.h	16;"	d
+GEEKOS_SYMBOL_H	symbol.h	12;"	d
+GEEKOS_SYNCH_H	synch.h	11;"	d
+GEEKOS_SYSCALL_H	syscall.h	11;"	d
+GEEKOS_TIMER_H	timer.h	11;"	d
+GEEKOS_TRAP_H	trap.h	11;"	d
+GEEKOS_TSS_H	tss.h	11;"	d
+GEEKOS_USER_H	user.h	12;"	d
+GEEKOS_VFS_H	vfs.h	12;"	d
+GRAY	screen.h	22;"	d
+GREEN	screen.h	17;"	d
+Get_Num_Blocks	blockdev.h	/^    int (*Get_Num_Blocks)(struct Block_Device *dev);$/;"	m	struct:Block_Device_Ops
+Get_Page	mem.h	/^static __inline__ struct Page *Get_Page(ulong_t addr)$/;"	f
+Get_Page_Address	mem.h	/^static __inline__ ulong_t Get_Page_Address(struct Page *page)$/;"	f
+HIGHMEM_START	mem.h	40;"	d
+IDT_Descriptor	idt.h	/^union IDT_Descriptor {$/;"	u
+IMPLEMENT_LIST	list.h	34;"	d
+ISA_HOLE_END	mem.h	34;"	d
+ISA_HOLE_START	mem.h	33;"	d
+ISDIGIT	ktypes.h	38;"	d
+IS_HELD	synch.h	41;"	d
+Interrupt_Gate	idt.h	/^struct Interrupt_Gate {$/;"	s
+Interrupt_Handler	int.h	/^typedef void (*Interrupt_Handler)(struct Interrupt_State* state);$/;"	t
+Interrupt_State	int.h	/^struct Interrupt_State {$/;"	s
+Is_Page_Multiple	mem.h	/^static __inline__ bool Is_Page_Multiple(ulong_t addr)$/;"	f
+Is_User_Interrupt	int.h	/^static __inline__ bool Is_User_Interrupt(struct Interrupt_State *state)$/;"	f
+KASSERT	kassert.h	20;"	d
+KASSERT	kassert.h	58;"	d
+KB_CMD	keyboard.h	26;"	d
+KB_DATA	keyboard.h	27;"	d
+KB_IRQ	keyboard.h	21;"	d
+KB_KEY_RELEASE	keyboard.h	37;"	d
+KB_OUTPUT_FULL	keyboard.h	32;"	d
+KERNEL_CS	defs.h	17;"	d
+KERNEL_DS	defs.h	18;"	d
+KERNEL_HEAP_SIZE	mem.h	45;"	d
+KERNEL_PRIVILEGE	defs.h	35;"	d
+KERNEL_START_ADDR	defs.h	30;"	d
+KERN_STACK	defs.h	25;"	d
+KERN_THREAD_OBJ	defs.h	24;"	d
+KEYPAD_START	keyboard.h	98;"	d
+KEY_ALT_FLAG	keyboard.h	62;"	d
+KEY_CAPSLOCK	keyboard.h	90;"	d
+KEY_CTRL_FLAG	keyboard.h	63;"	d
+KEY_F1	keyboard.h	71;"	d
+KEY_F10	keyboard.h	80;"	d
+KEY_F11	keyboard.h	81;"	d
+KEY_F12	keyboard.h	82;"	d
+KEY_F2	keyboard.h	72;"	d
+KEY_F3	keyboard.h	73;"	d
+KEY_F4	keyboard.h	74;"	d
+KEY_F5	keyboard.h	75;"	d
+KEY_F6	keyboard.h	76;"	d
+KEY_F7	keyboard.h	77;"	d
+KEY_F8	keyboard.h	78;"	d
+KEY_F9	keyboard.h	79;"	d
+KEY_KEYPAD_FLAG	keyboard.h	60;"	d
+KEY_KPCENTER	keyboard.h	105;"	d
+KEY_KPDEL	keyboard.h	112;"	d
+KEY_KPDOWN	keyboard.h	109;"	d
+KEY_KPEND	keyboard.h	108;"	d
+KEY_KPHOME	keyboard.h	100;"	d
+KEY_KPINSERT	keyboard.h	111;"	d
+KEY_KPLEFT	keyboard.h	104;"	d
+KEY_KPMINUS	keyboard.h	103;"	d
+KEY_KPPGDN	keyboard.h	110;"	d
+KEY_KPPGUP	keyboard.h	102;"	d
+KEY_KPPLUS	keyboard.h	107;"	d
+KEY_KPRIGHT	keyboard.h	106;"	d
+KEY_KPUP	keyboard.h	101;"	d
+KEY_LALT	keyboard.h	87;"	d
+KEY_LCTRL	keyboard.h	83;"	d
+KEY_LSHIFT	keyboard.h	85;"	d
+KEY_NUMLOCK	keyboard.h	91;"	d
+KEY_PRINTSCRN	keyboard.h	89;"	d
+KEY_RALT	keyboard.h	88;"	d
+KEY_RCTRL	keyboard.h	84;"	d
+KEY_RELEASE_FLAG	keyboard.h	64;"	d
+KEY_RSHIFT	keyboard.h	86;"	d
+KEY_SCRLOCK	keyboard.h	92;"	d
+KEY_SHIFT_FLAG	keyboard.h	61;"	d
+KEY_SPECIAL_FLAG	keyboard.h	59;"	d
+KEY_SYSREQ	keyboard.h	93;"	d
+KEY_UNKNOWN	keyboard.h	70;"	d
+Kernel_Thread	kthread.h	/^struct Kernel_Thread {$/;"	s
+Keycode	keyboard.h	/^typedef ushort_t Keycode;$/;"	t
+MAGENTA	screen.h	20;"	d
+MAX	ktypes.h	33;"	d
+MAX_TLOCAL_KEYS	kthread.h	60;"	d
+MIN	ktypes.h	32;"	d
+MIN_DESTRUCTOR_ITERATIONS	kthread.h	145;"	d
+MUTEX_INITIALIZER	synch.h	26;"	d
+MUTEX_LOCKED	synch.h	/^enum { MUTEX_UNLOCKED, MUTEX_LOCKED };$/;"	e	enum:__anon3
+MUTEX_UNLOCKED	synch.h	/^enum { MUTEX_UNLOCKED, MUTEX_LOCKED };$/;"	e	enum:__anon3
+Mount	vfs.h	/^    int (*Mount)(struct Mount_Point *mountPoint);$/;"	m	struct:Filesystem_Ops
+Mount_Point	vfs.h	/^struct Mount_Point {$/;"	s
+Mount_Point_Ops	vfs.h	/^struct Mount_Point_Ops {$/;"	s
+Mutex	synch.h	/^struct Mutex {$/;"	s
+NUMCOLS	screen.h	26;"	d
+NUMROWS	screen.h	27;"	d
+NUM_EXCEPTIONS	idt.h	24;"	d
+NUM_EXTERNAL_INTS	idt.h	30;"	d
+NUM_IDT_ENTRIES	idt.h	18;"	d
+NUM_USER_LDT_ENTRIES	user.h	32;"	d
+O_CREATE	fileio.h	38;"	d
+O_EXCL	fileio.h	41;"	d
+O_READ	fileio.h	39;"	d
+O_WRITE	fileio.h	40;"	d
+Open	blockdev.h	/^    int (*Open)(struct Block_Device *dev);$/;"	m	struct:Block_Device_Ops
+Open	vfs.h	/^    int (*Open)(struct Mount_Point *mountPoint, const char *path, int mode, struct File **pFile);$/;"	m	struct:Mount_Point_Ops
+Open_Directory	vfs.h	/^    int (*Open_Directory)(struct Mount_Point *mountPoint, const char *path, struct File **pDir);$/;"	m	struct:Mount_Point_Ops
+PACKED	segment.h	/^    uchar_t baseHigh        PACKED ;$/;"	m	struct:Segment_Descriptor
+PACKED	segment.h	/^    ushort_t sizeLow        PACKED ;$/;"	m	struct:Segment_Descriptor
+PACKED	segment.h	23;"	d
+PACKED	segment.h	25;"	d
+PAGE_ALLOCATED	mem.h	26;"	d
+PAGE_AVAIL	mem.h	23;"	d
+PAGE_HEAP	mem.h	28;"	d
+PAGE_HW	mem.h	25;"	d
+PAGE_KERN	mem.h	24;"	d
+PAGE_MASK	defs.h	61;"	d
+PAGE_POWER	defs.h	59;"	d
+PAGE_SIZE	defs.h	60;"	d
+PAGE_UNUSED	mem.h	27;"	d
+PAUSE	kassert.h	46;"	d
+PAUSE	kassert.h	60;"	d
+PENDING	blockdev.h	/^    PENDING, COMPLETED, ERROR$/;"	e	enum:Request_State
+PFAT_BOOT_RECORD_OFFSET	pfat.h	53;"	d
+PFAT_MAGIC	pfat.h	50;"	d
+PF_R	elf.h	53;"	d
+PF_W	elf.h	54;"	d
+PF_X	elf.h	55;"	d
+PRIORITY_HIGH	kthread.h	91;"	d
+PRIORITY_IDLE	kthread.h	87;"	d
+PRIORITY_LOW	kthread.h	89;"	d
+PRIORITY_NORMAL	kthread.h	90;"	d
+PRIORITY_USER	kthread.h	88;"	d
+PROTOTYPES	bget.h	17;"	d
+Page	mem.h	/^struct Page {$/;"	s
+Page_Index	mem.h	/^static __inline__ int Page_Index(ulong_t addr)$/;"	f
+Paging_Device	vfs.h	/^struct Paging_Device {$/;"	s
+Panic	kassert.h	74;"	d
+RED	screen.h	19;"	d
+Read	vfs.h	/^    int (*Read)(struct File *file, void *buf, ulong_t numBytes);$/;"	m	struct:File_Ops
+Read_Entry	vfs.h	/^    int (*Read_Entry)(struct File *dir, struct VFS_Dir_Entry *entry);  \/* Read next directory entry. *\/$/;"	m	struct:File_Ops
+Remove_Thread	kthread.h	/^static __inline__ void Remove_Thread(struct Thread_Queue *queue, struct Kernel_Thread *kthread) {$/;"	f
+Request_State	blockdev.h	/^enum Request_State {$/;"	g
+Request_Type	blockdev.h	/^enum Request_Type {$/;"	g
+Round_Down_To_Block	blockdev.h	/^static __inline__ ulong_t Round_Down_To_Block(ulong_t offset)$/;"	f
+Round_Down_To_Page	mem.h	/^static __inline__ ulong_t Round_Down_To_Page(ulong_t addr)$/;"	f
+Round_Up_To_Block	blockdev.h	/^static __inline__ ulong_t Round_Up_To_Block(ulong_t offset)$/;"	f
+Round_Up_To_Page	mem.h	/^static __inline__ ulong_t Round_Up_To_Page(ulong_t addr)$/;"	f
+SECTOR_SIZE	fileio.h	27;"	d
+STOP	kassert.h	69;"	d
+SYSCALL	syscall.h	34;"	d
+SYSCALL_INT	defs.h	42;"	d
+SYSCALL_REGS_0	syscall.h	68;"	d
+SYSCALL_REGS_1	syscall.h	69;"	d
+SYSCALL_REGS_2	syscall.h	70;"	d
+SYSCALL_REGS_3	syscall.h	71;"	d
+SYSCALL_REGS_4	syscall.h	72;"	d
+SYSCALL_REGS_5	syscall.h	73;"	d
+SYS_EXIT	syscall.h	/^    SYS_EXIT,		 \/* Exit system call  *\/$/;"	e	enum:__anon4
+SYS_GETCURSOR	syscall.h	/^    SYS_GETCURSOR,	 \/* Get current cursor position *\/$/;"	e	enum:__anon4
+SYS_GETKEY	syscall.h	/^    SYS_GETKEY,		 \/* Get key system call  *\/$/;"	e	enum:__anon4
+SYS_GETPID	syscall.h	/^    SYS_GETPID,		 \/* Get pid (process id) system call  *\/$/;"	e	enum:__anon4
+SYS_NULL	syscall.h	/^    SYS_NULL,		 \/* Null (no-op) system call  *\/$/;"	e	enum:__anon4
+SYS_PRINTSTRING	syscall.h	/^    SYS_PRINTSTRING,	 \/* Print string system call  *\/$/;"	e	enum:__anon4
+SYS_PUTCURSOR	syscall.h	/^    SYS_PUTCURSOR,	 \/* Put current cursor position *\/$/;"	e	enum:__anon4
+SYS_SETATTR	syscall.h	/^    SYS_SETATTR,	 \/* Set screen attribute system call  *\/$/;"	e	enum:__anon4
+SYS_SPAWN	syscall.h	/^    SYS_SPAWN,		 \/* Spawn process system call  *\/$/;"	e	enum:__anon4
+SYS_WAIT	syscall.h	/^    SYS_WAIT,		 \/* Wait for child process to exit system call  *\/$/;"	e	enum:__anon4
+Seek	vfs.h	/^    int (*Seek)(struct File *file, ulong_t pos);$/;"	m	struct:File_Ops
+Segment_Descriptor	segment.h	/^struct Segment_Descriptor {$/;"	s
+Selector	segment.h	/^static __inline__ ushort_t Selector(int rpl, bool segmentIsInGDT, int index)$/;"	f
+Stat	vfs.h	/^    int (*Stat)(struct Mount_Point *mountPoint, const char *path, struct VFS_File_Stat *stat);$/;"	m	struct:Mount_Point_Ops
+Sync	vfs.h	/^    int (*Sync)(struct Mount_Point *mountPoint);$/;"	m	struct:Mount_Point_Ops
+Syscall	syscall.h	/^typedef int (*Syscall)(struct Interrupt_State* state);$/;"	t
+TABWIDTH	screen.h	29;"	d
+TIMER_IRQ	timer.h	13;"	d
+TODO	kassert.h	33;"	d
+TODO	kassert.h	59;"	d
+TOLOWER	ktypes.h	39;"	d
+TOUPPER	ktypes.h	40;"	d
+TSS	tss.h	/^struct TSS {$/;"	s
+Thread_Start_Func	kthread.h	/^typedef void (*Thread_Start_Func)(ulong_t arg);$/;"	t
+USER_MAX_FILES	user.h	21;"	d
+USER_PRIVILEGE	defs.h	36;"	d
+User_Context	user.h	/^struct User_Context {$/;"	s
+User_Interrupt_State	int.h	/^struct User_Interrupt_State {$/;"	s
+VFS_ACL_Entry	fileio.h	/^struct VFS_ACL_Entry {$/;"	s
+VFS_Dir_Entry	fileio.h	/^struct VFS_Dir_Entry {$/;"	s
+VFS_File_Stat	fileio.h	/^struct VFS_File_Stat {$/;"	s
+VFS_MAX_ACL_ENTRIES	fileio.h	24;"	d
+VFS_MAX_FS_NAME_LEN	fileio.h	21;"	d
+VFS_MAX_PATH_LEN	fileio.h	18;"	d
+VFS_Mount_Request	fileio.h	/^struct VFS_Mount_Request {$/;"	s
+VFS_NO_MORE_DIR_ENTRIES	vfs.h	25;"	d
+VIDMEM	screen.h	38;"	d
+VIDMEM_ADDR	screen.h	37;"	d
+Write	vfs.h	/^    int (*Write)(struct File *file, void *buf, ulong_t numBytes);$/;"	m	struct:File_Ops
+_	bget.h	23;"	d
+_	bget.h	25;"	d
+_KEYPAD	keyboard.h	99;"	d
+_S	symbol.h	15;"	d
+_S	symbol.h	17;"	d
+_SPECIAL	keyboard.h	69;"	d
+__Disable_Interrupts	int.h	/^static __inline__ void __Disable_Interrupts(void)$/;"	f
+__Enable_Interrupts	int.h	/^static __inline__ void __Enable_Interrupts(void)$/;"	f
+acls	fileio.h	/^    struct VFS_ACL_Entry acls[VFS_MAX_ACL_ENTRIES];$/;"	m	struct:VFS_File_Stat	typeref:struct:VFS_File_Stat::VFS_ACL_Entry
+alignment	elf.h	/^    unsigned  int   alignment;$/;"	m	struct:__anon2
+alive	kthread.h	/^    bool alive;$/;"	m	struct:Kernel_Thread
+argBlockAddr	user.h	/^    ulong_t argBlockAddr;$/;"	m	struct:User_Context
+argc	argblock.h	/^    int argc;$/;"	m	struct:Argument_Block
+argv	argblock.h	/^    char **argv;$/;"	m	struct:Argument_Block
+avail	segment.h	/^    uint_t avail       : 1  PACKED ;$/;"	m	struct:Segment_Descriptor
+baseLow	segment.h	/^    uint_t baseLow     : 24 PACKED ;$/;"	m	struct:Segment_Descriptor
+blockNum	blockdev.h	/^    int blockNum;$/;"	m	struct:Block_Request
+bootInfoSize	bootinfo.h	/^    int bootInfoSize;	 \/* size of this struct; for versioning *\/$/;"	m	struct:Boot_Info
+bootSector	pfat.h	/^} bootSector;$/;"	t	typeref:struct:__anon5
+buf	blockdev.h	/^    void *buf;$/;"	m	struct:Block_Request
+bufsize	bget.h	/^typedef long bufsize;$/;"	t
+cr3	tss.h	/^    ulong_t cr3;$/;"	m	struct:TSS
+cs	int.h	/^    uint_t cs;$/;"	m	struct:Interrupt_State
+cs	tss.h	/^    ushort_t cs;$/;"	m	struct:TSS
+csSelector	user.h	/^    ushort_t csSelector;$/;"	m	struct:User_Context
+date	pfat.h	/^    short date;$/;"	m	struct:__anon6
+dbBit	segment.h	/^    uint_t dbBit       : 1  PACKED ;$/;"	m	struct:Segment_Descriptor
+debugTrap	tss.h	/^    uint_t debugTrap : 1;$/;"	m	struct:TSS
+dev	blockdev.h	/^    struct Block_Device *dev;$/;"	m	struct:Block_Request	typeref:struct:Block_Request::Block_Device
+dev	vfs.h	/^    struct Block_Device *dev;	 \/* Block device filesystem is mounted on. *\/$/;"	m	struct:Mount_Point	typeref:struct:Mount_Point::Block_Device
+dev	vfs.h	/^    struct Block_Device *dev;	 \/* Block device for paging file. *\/$/;"	m	struct:Paging_Device	typeref:struct:Paging_Device::Block_Device
+devname	fileio.h	/^    char devname[BLOCKDEV_MAX_NAME_LEN+1];\/* Name of block device: e.g., "ide1". *\/$/;"	m	struct:VFS_Mount_Request
+directory	pfat.h	/^    char directory:1;$/;"	m	struct:__anon6
+directoryEntry	pfat.h	/^} directoryEntry;$/;"	t	typeref:struct:__anon6
+dpl	idt.h	/^    unsigned dpl : 2;$/;"	m	struct:Interrupt_Gate
+dpl	segment.h	/^    uint_t dpl         : 2  PACKED ;$/;"	m	struct:Segment_Descriptor
+driverData	blockdev.h	/^    void *driverData;$/;"	m	struct:Block_Device
+ds	int.h	/^    uint_t ds;$/;"	m	struct:Interrupt_State
+ds	tss.h	/^    ushort_t ds;$/;"	m	struct:TSS
+dsSelector	user.h	/^    ushort_t dsSelector;$/;"	m	struct:User_Context
+eax	int.h	/^    uint_t eax;$/;"	m	struct:Interrupt_State
+eax	tss.h	/^    ulong_t eax;$/;"	m	struct:TSS
+ebp	int.h	/^    uint_t ebp;$/;"	m	struct:Interrupt_State
+ebp	tss.h	/^    ulong_t ebp;$/;"	m	struct:TSS
+ebx	int.h	/^    uint_t ebx;$/;"	m	struct:Interrupt_State
+ebx	tss.h	/^    ulong_t ebx;$/;"	m	struct:TSS
+ecx	int.h	/^    uint_t ecx;$/;"	m	struct:Interrupt_State
+ecx	tss.h	/^    ulong_t ecx;$/;"	m	struct:TSS
+edi	int.h	/^    uint_t edi;$/;"	m	struct:Interrupt_State
+edi	tss.h	/^    ulong_t edi;$/;"	m	struct:TSS
+edx	int.h	/^    uint_t edx;$/;"	m	struct:Interrupt_State
+edx	tss.h	/^    ulong_t edx;$/;"	m	struct:TSS
+eflags	int.h	/^    uint_t eflags;$/;"	m	struct:Interrupt_State
+eflags	tss.h	/^    ulong_t eflags;$/;"	m	struct:TSS
+ehsize	elf.h	/^    unsigned  short	ehsize;$/;"	m	struct:__anon1
+eip	int.h	/^    uint_t eip;$/;"	m	struct:Interrupt_State
+eip	tss.h	/^    ulong_t eip;$/;"	m	struct:TSS
+elfHeader	elf.h	/^} elfHeader;$/;"	t	typeref:struct:__anon1
+endPos	vfs.h	/^    ulong_t endPos;		 \/* End position (i.e., the length of the file). *\/$/;"	m	struct:File
+entry	elf.h	/^    unsigned  int	entry;$/;"	m	struct:__anon1
+entryAddr	elf.h	/^    ulong_t entryAddr;	 	\/* Code entry point address *\/$/;"	m	struct:Exe_Format
+entryAddr	user.h	/^    ulong_t entryAddr;$/;"	m	struct:User_Context
+errorCode	blockdev.h	/^    volatile int errorCode;$/;"	m	struct:Block_Request
+errorCode	int.h	/^    uint_t errorCode;$/;"	m	struct:Interrupt_State
+es	int.h	/^    uint_t es;$/;"	m	struct:Interrupt_State
+es	tss.h	/^    ushort_t es;$/;"	m	struct:TSS
+esi	int.h	/^    uint_t esi;$/;"	m	struct:Interrupt_State
+esi	tss.h	/^    ulong_t esi;$/;"	m	struct:TSS
+esp	kthread.h	/^    ulong_t esp;			 \/* offset 0 *\/$/;"	m	struct:Kernel_Thread
+esp	tss.h	/^    ulong_t esp;$/;"	m	struct:TSS
+esp0	tss.h	/^    ulong_t esp0;$/;"	m	struct:TSS
+esp1	tss.h	/^    ulong_t esp1;$/;"	m	struct:TSS
+esp2	tss.h	/^    ulong_t esp2;$/;"	m	struct:TSS
+espUser	int.h	/^    uint_t espUser;$/;"	m	struct:User_Interrupt_State
+exitCode	kthread.h	/^    int exitCode;$/;"	m	struct:Kernel_Thread
+fileAllocationLength	pfat.h	/^    int fileAllocationLength;	\/* length of allocation table *\/$/;"	m	struct:__anon5
+fileAllocationOffset	pfat.h	/^    int fileAllocationOffset;	\/* where is the file allocation table *\/$/;"	m	struct:__anon5
+fileName	pfat.h	/^    char fileName[8+4];$/;"	m	struct:__anon6
+fileName	vfs.h	/^    char *fileName;		 \/* Name of paging file. *\/$/;"	m	struct:Paging_Device
+filePos	vfs.h	/^    ulong_t filePos;		 \/* Current position in the file. *\/$/;"	m	struct:File
+fileSize	elf.h	/^    unsigned  int   fileSize;$/;"	m	struct:__anon2
+fileSize	pfat.h	/^    int fileSize;$/;"	m	struct:__anon6
+firstBlock	pfat.h	/^    int firstBlock;$/;"	m	struct:__anon6
+flags	elf.h	/^    unsigned  int	flags;$/;"	m	struct:__anon1
+flags	elf.h	/^    unsigned  int   flags;$/;"	m	struct:__anon2
+flags	mem.h	/^    unsigned flags;			 \/* Flags indicating state of page *\/$/;"	m	struct:Page
+fs	int.h	/^    uint_t fs;$/;"	m	struct:Interrupt_State
+fs	tss.h	/^    ushort_t fs;$/;"	m	struct:TSS
+fsData	vfs.h	/^    void *fsData;		 \/* For use by the filesystem implementation. *\/$/;"	m	struct:File
+fsData	vfs.h	/^    void *fsData;		 \/* For use by the filesystem implementation. *\/$/;"	m	struct:Mount_Point
+fstype	fileio.h	/^    char fstype[VFS_MAX_FS_NAME_LEN+1];	\/* Filesystem type: e.g., "gosfs". *\/$/;"	m	struct:VFS_Mount_Request
+granularity	segment.h	/^    uint_t granularity : 1  PACKED ;$/;"	m	struct:Segment_Descriptor
+gs	int.h	/^    uint_t gs;$/;"	m	struct:Interrupt_State
+gs	tss.h	/^    ushort_t gs;$/;"	m	struct:TSS
+hidden	pfat.h	/^    char hidden:1;$/;"	m	struct:__anon6
+ident	elf.h	/^    unsigned  char	ident[16];$/;"	m	struct:__anon1
+ig	idt.h	/^    struct Interrupt_Gate ig;$/;"	m	union:IDT_Descriptor	typeref:struct:IDT_Descriptor::Interrupt_Gate
+inUse	blockdev.h	/^    bool inUse;$/;"	m	struct:Block_Device
+intNum	int.h	/^    uint_t intNum;$/;"	m	struct:Interrupt_State
+ioMapBase	tss.h	/^    ushort_t ioMapBase;$/;"	m	struct:TSS
+isDirectory	fileio.h	/^    int isDirectory:1;$/;"	m	struct:VFS_File_Stat
+isSetuid	fileio.h	/^    int isSetuid:1;$/;"	m	struct:VFS_File_Stat
+joinQueue	kthread.h	/^    struct Thread_Queue joinQueue;$/;"	m	struct:Kernel_Thread	typeref:struct:Kernel_Thread::Thread_Queue
+kernelSize	pfat.h	/^    short kernelSize;		\/* size in sectors of kernel to run *\/$/;"	m	struct:__anon5
+kernelStart	pfat.h	/^    short kernelStart;		\/* first sector of kernel to run *\/$/;"	m	struct:__anon5
+ldt	tss.h	/^    ushort_t ldt;$/;"	m	struct:TSS
+ldt	user.h	/^    struct Segment_Descriptor ldt[NUM_USER_LDT_ENTRIES];$/;"	m	struct:User_Context	typeref:struct:User_Context::Segment_Descriptor
+ldtDescriptor	user.h	/^    struct Segment_Descriptor* ldtDescriptor;$/;"	m	struct:User_Context	typeref:struct:User_Context::Segment_Descriptor
+ldtSelector	user.h	/^    ushort_t ldtSelector;$/;"	m	struct:User_Context
+lengthInFile	elf.h	/^    ulong_t lengthInFile;	 \/* Length of segment data in executable file *\/$/;"	m	struct:Exe_Segment
+link	tss.h	/^    ushort_t link;$/;"	m	struct:TSS
+machine	elf.h	/^    unsigned  short	machine;$/;"	m	struct:__anon1
+magic	pfat.h	/^    int magic;			\/* id to tell the type of filesystem *\/$/;"	m	struct:__anon5
+memSize	elf.h	/^    unsigned  int   memSize;$/;"	m	struct:__anon2
+memSizeKB	bootinfo.h	/^    int memSizeKB;	 \/* number of KB, as reported by int 15h *\/$/;"	m	struct:Boot_Info
+memory	user.h	/^    char* memory;$/;"	m	struct:User_Context
+mode	vfs.h	/^    int mode;			 \/* Mode (read vs. write). *\/$/;"	m	struct:File
+mountPoint	vfs.h	/^    struct Mount_Point *mountPoint; \/* Mounted filesystem file is part of. *\/$/;"	m	struct:File	typeref:struct:File::Mount_Point
+name	blockdev.h	/^    char name[BLOCKDEV_MAX_NAME_LEN];$/;"	m	struct:Block_Device
+name	fileio.h	/^    char name[1024];$/;"	m	struct:VFS_Dir_Entry
+numSectors	vfs.h	/^    ulong_t numSectors;		 \/* Number of sectors in paging file. *\/$/;"	m	struct:Paging_Device
+numSegments	elf.h	/^    int numSegments;		\/* Number of segments contained in the executable *\/$/;"	m	struct:Exe_Format
+numTicks	kthread.h	/^    volatile ulong_t numTicks;		 \/* offset 4 *\/$/;"	m	struct:Kernel_Thread
+offset	elf.h	/^    unsigned  int   offset;$/;"	m	struct:__anon2
+offsetHigh	idt.h	/^    ushort_t offsetHigh;$/;"	m	struct:Interrupt_Gate
+offsetInFile	elf.h	/^    ulong_t offsetInFile;	 \/* Offset of segment in executable file *\/$/;"	m	struct:Exe_Segment
+offsetLow	idt.h	/^    ushort_t offsetLow;$/;"	m	struct:Interrupt_Gate
+ops	blockdev.h	/^    struct Block_Device_Ops *ops;$/;"	m	struct:Block_Device	typeref:struct:Block_Device::Block_Device_Ops
+ops	vfs.h	/^    struct File_Ops *ops;	 \/* Operations that can be performed on the file. *\/$/;"	m	struct:File	typeref:struct:File::File_Ops
+ops	vfs.h	/^    struct Mount_Point_Ops *ops; \/* Operations that can be performed on the mount. *\/$/;"	m	struct:Mount_Point	typeref:struct:Mount_Point::Mount_Point_Ops
+owner	kthread.h	/^    struct Kernel_Thread* owner;$/;"	m	struct:Kernel_Thread	typeref:struct:Kernel_Thread::Kernel_Thread
+owner	synch.h	/^    struct Kernel_Thread* owner;$/;"	m	struct:Mutex	typeref:struct:Mutex::Kernel_Thread
+paddr	elf.h	/^    unsigned  int   paddr;$/;"	m	struct:__anon2
+pathPrefix	vfs.h	/^    char *pathPrefix;		 \/* Path prefix where fs is mounted. *\/$/;"	m	struct:Mount_Point
+permission	fileio.h	/^    uint_t permission:4;$/;"	m	struct:VFS_ACL_Entry
+phentsize	elf.h	/^    unsigned  short	phentsize;$/;"	m	struct:__anon1
+phnum	elf.h	/^    unsigned  short	phnum;$/;"	m	struct:__anon1
+phoff	elf.h	/^    unsigned  int	phoff;$/;"	m	struct:__anon1
+pid	kthread.h	/^    int pid;$/;"	m	struct:Kernel_Thread
+prefix	fileio.h	/^    char prefix[VFS_MAX_PATH_LEN+1];	\/* Directory prefix to mount on: e.g., "\/d". *\/$/;"	m	struct:VFS_Mount_Request
+present	idt.h	/^    unsigned present : 1;$/;"	m	struct:Interrupt_Gate
+present	segment.h	/^    uint_t present     : 1  PACKED ;$/;"	m	struct:Segment_Descriptor
+priority	kthread.h	/^    int priority;$/;"	m	struct:Kernel_Thread
+programHeader	elf.h	/^} programHeader;$/;"	t	typeref:struct:__anon2
+protFlags	elf.h	/^    int protFlags;		 \/* VM protection flags; combination of VM_READ,VM_WRITE,VM_EXEC *\/$/;"	m	struct:Exe_Segment
+readOnly	pfat.h	/^    char readOnly:1;$/;"	m	struct:__anon6
+refCount	kthread.h	/^    int refCount;$/;"	m	struct:Kernel_Thread
+refCount	user.h	/^    int refCount;$/;"	m	struct:User_Context
+requestQueue	blockdev.h	/^    struct Block_Request_List *requestQueue;$/;"	m	struct:Block_Device	typeref:struct:Block_Device::Block_Request_List
+reserved	idt.h	/^    unsigned reserved : 5;$/;"	m	struct:Interrupt_Gate
+reserved	segment.h	/^    uint_t reserved    : 1  PACKED ;  \/* set to zero *\/$/;"	m	struct:Segment_Descriptor
+reserved1	tss.h	/^    ushort_t reserved1;$/;"	m	struct:TSS
+reserved10	tss.h	/^    ushort_t reserved10;$/;"	m	struct:TSS
+reserved11	tss.h	/^    ushort_t reserved11;$/;"	m	struct:TSS
+reserved12	tss.h	/^    uint_t reserved12 : 15;$/;"	m	struct:TSS
+reserved2	tss.h	/^    ushort_t reserved2;$/;"	m	struct:TSS
+reserved3	tss.h	/^    ushort_t reserved3;$/;"	m	struct:TSS
+reserved4	tss.h	/^    ushort_t reserved4;$/;"	m	struct:TSS
+reserved5	tss.h	/^    ushort_t reserved5;$/;"	m	struct:TSS
+reserved6	tss.h	/^    ushort_t reserved6;$/;"	m	struct:TSS
+reserved7	tss.h	/^    ushort_t reserved7;$/;"	m	struct:TSS
+reserved8	tss.h	/^    ushort_t reserved8;$/;"	m	struct:TSS
+reserved9	tss.h	/^    ushort_t reserved9;$/;"	m	struct:TSS
+rootDirectoryCount	pfat.h	/^    int rootDirectoryCount;	\/* number of items in the directory *\/$/;"	m	struct:__anon5
+rootDirectoryOffset	pfat.h	/^    int rootDirectoryOffset;	\/* offset in sectors of root directory *\/$/;"	m	struct:__anon5
+segmentList	elf.h	/^    struct Exe_Segment segmentList[EXE_MAX_SEGMENTS]; \/* Definition of segments *\/$/;"	m	struct:Exe_Format	typeref:struct:Exe_Format::Exe_Segment
+segmentSelector	idt.h	/^    ushort_t segmentSelector;$/;"	m	struct:Interrupt_Gate
+setupSize	pfat.h	/^    short setupSize;		\/* size in sectors of secondary loader *\/$/;"	m	struct:__anon5
+setupStart	pfat.h	/^    short setupStart;		\/* first sector of secondary loader *\/$/;"	m	struct:__anon5
+shentsize	elf.h	/^    unsigned  short	shentsize;$/;"	m	struct:__anon1
+shnum	elf.h	/^    unsigned  short	shnum;$/;"	m	struct:__anon1
+shstrndx	elf.h	/^    unsigned  short	shstrndx;$/;"	m	struct:__anon1
+signature	idt.h	/^    unsigned signature : 8;$/;"	m	struct:Interrupt_Gate
+size	fileio.h	/^    int size;$/;"	m	struct:VFS_File_Stat
+size	user.h	/^    ulong_t size;$/;"	m	struct:User_Context
+sizeHigh	segment.h	/^    uint_t sizeHigh    : 4  PACKED ;$/;"	m	struct:Segment_Descriptor
+sizeInMemory	elf.h	/^    ulong_t sizeInMemory;	 \/* Size of segment in memory *\/$/;"	m	struct:Exe_Segment
+sphoff	elf.h	/^    unsigned  int	sphoff;$/;"	m	struct:__anon1
+ss	tss.h	/^    ushort_t ss;$/;"	m	struct:TSS
+ss0	tss.h	/^    ushort_t ss0;$/;"	m	struct:TSS
+ss1	tss.h	/^    ushort_t ss1;$/;"	m	struct:TSS
+ss2	tss.h	/^    ushort_t ss2;$/;"	m	struct:TSS
+ssUser	int.h	/^    uint_t ssUser;$/;"	m	struct:User_Interrupt_State
+stackPage	kthread.h	/^    void* stackPage;$/;"	m	struct:Kernel_Thread
+stackPointerAddr	user.h	/^    ulong_t stackPointerAddr;$/;"	m	struct:User_Context
+startAddress	elf.h	/^    ulong_t startAddress;	 \/* Start address of segment in user memory *\/$/;"	m	struct:Exe_Segment
+startSector	vfs.h	/^    ulong_t startSector;	 \/* Start sector of paging file. *\/$/;"	m	struct:Paging_Device
+state	blockdev.h	/^    volatile enum Request_State state;$/;"	m	struct:Block_Request	typeref:enum:Block_Request::Request_State
+state	int.h	/^    struct Interrupt_State state;$/;"	m	struct:User_Interrupt_State	typeref:struct:User_Interrupt_State::Interrupt_State
+state	synch.h	/^    int state;$/;"	m	struct:Mutex
+stats	fileio.h	/^    struct VFS_File_Stat stats;$/;"	m	struct:VFS_Dir_Entry	typeref:struct:VFS_Dir_Entry::VFS_File_Stat
+system	segment.h	/^    uint_t system      : 1  PACKED ;$/;"	m	struct:Segment_Descriptor
+systemFile	pfat.h	/^    char systemFile:1;$/;"	m	struct:__anon6
+time	pfat.h	/^    short time;$/;"	m	struct:__anon6
+tlocalData	kthread.h	/^    const void* tlocalData[MAX_TLOCAL_KEYS];$/;"	m	struct:Kernel_Thread
+tlocal_destructor_t	kthread.h	/^typedef void (*tlocal_destructor_t)(void *);$/;"	t
+tlocal_key_t	kthread.h	/^typedef unsigned int tlocal_key_t;$/;"	t
+type	blockdev.h	/^    enum Request_Type type;$/;"	m	struct:Block_Request	typeref:enum:Block_Request::Request_Type
+type	elf.h	/^    unsigned  int   type;$/;"	m	struct:__anon2
+type	elf.h	/^    unsigned  short	type;$/;"	m	struct:__anon1
+type	segment.h	/^    uint_t type        : 4  PACKED ;$/;"	m	struct:Segment_Descriptor
+uchar_t	ktypes.h	/^typedef unsigned char uchar_t;$/;"	t
+uid	fileio.h	/^    uint_t uid:28;$/;"	m	struct:VFS_ACL_Entry
+uint_t	ktypes.h	/^typedef unsigned int uint_t;$/;"	t
+ulong_t	ktypes.h	/^typedef unsigned long ulong_t;$/;"	t
+unit	blockdev.h	/^    int unit;$/;"	m	struct:Block_Device
+userContext	kthread.h	/^    struct User_Context* userContext;$/;"	m	struct:Kernel_Thread	typeref:struct:Kernel_Thread::User_Context
+ushort_t	ktypes.h	/^typedef unsigned short ushort_t;$/;"	t
+vaddr	elf.h	/^    unsigned  int   vaddr;$/;"	m	struct:__anon2
+version	elf.h	/^    unsigned  int	version;$/;"	m	struct:__anon1
+volumeLabel	pfat.h	/^    char volumeLabel:1;$/;"	m	struct:__anon6
+waitQueue	blockdev.h	/^    struct Thread_Queue *waitQueue;$/;"	m	struct:Block_Device	typeref:struct:Block_Device::Thread_Queue
+waitQueue	blockdev.h	/^    struct Thread_Queue waitQueue;$/;"	m	struct:Block_Request	typeref:struct:Block_Request::Thread_Queue
+waitQueue	synch.h	/^    struct Thread_Queue waitQueue;$/;"	m	struct:Condition	typeref:struct:Condition::Thread_Queue
+waitQueue	synch.h	/^    struct Thread_Queue waitQueue;$/;"	m	struct:Mutex	typeref:struct:Mutex::Thread_Queue

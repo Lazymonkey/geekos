@@ -1,0 +1,730 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALT_MASK	keyboard.c	53;"	d	file:
+Add_Digit	screen.c	/^static void Add_Digit(int c)$/;"	f	file:
+Add_Page_Range	mem.c	/^static void Add_Page_Range(ulong_t start, ulong_t end, int flags)$/;"	f	file:
+After_Err	lowlevel.asm	/^After_Err:$/;"	l
+After_No_Err	lowlevel.asm	/^After_No_Err:$/;"	l
+Alloc_Page	mem.c	/^void* Alloc_Page(void)$/;"	f
+Allocate_File	vfs.c	/^struct File *Allocate_File(struct File_Ops *ops, int filePos, int endPos, void *fsData,$/;"	f
+Allocate_Segment_Descriptor	gdt.c	/^struct Segment_Descriptor* Allocate_Segment_Descriptor(void)$/;"	f
+Attach_User_Context	user.c	/^void Attach_User_Context(struct Kernel_Thread* kthread, struct User_Context* context)$/;"	f
+BDH	bget.c	518;"	d	file:
+BFH	bget.c	526;"	d	file:
+BH	bget.c	510;"	d	file:
+BIOS_SIGNATURE_OFFSET	bootsect.asm	/^BIOS_SIGNATURE_OFFSET equ 510$/;"	d
+BIOS_SIGNATURE_OFFSET	defs.asm	/^BIOS_SIGNATURE_OFFSET equ 510$/;"	d
+BOOTSEG	defs.asm	/^BOOTSEG equ 0x07C0$/;"	d
+Before_Err	lowlevel.asm	/^Before_Err:$/;"	l
+Before_No_Err	lowlevel.asm	/^Before_No_Err:$/;"	l
+BeginText	bootsect.asm	/^BeginText:	; needed to calculate padding bytes to fill the sector$/;"	l
+BeginText	fd_boot.asm	/^BeginText:	; needed to calculate padding bytes to fill the sector$/;"	l
+Begin_IRQ	irq.c	/^void Begin_IRQ(struct Interrupt_State* state)$/;"	f
+BestFit	bget.c	443;"	d	file:
+Block_Read	blockdev.c	/^int Block_Read(struct Block_Device *dev, int blockNum, void *buf)$/;"	f
+Block_Write	blockdev.c	/^int Block_Write(struct Block_Device *dev, int blockNum, void *buf)$/;"	f
+CALIBRATE_NUM_TICKS	timer.c	32;"	d	file:
+CMOS_FLOPPY_INDEX	floppy.c	122;"	d	file:
+CMOS_IN	floppy.c	121;"	d	file:
+CMOS_OUT	floppy.c	120;"	d	file:
+CTRL_MASK	keyboard.c	52;"	d	file:
+CYLINDERS	defs.asm	/^CYLINDERS equ 80$/;"	d
+Calibrate	floppy.c	/^static bool Calibrate(int drive)$/;"	f	file:
+Calibrate_Delay	timer.c	/^static void Calibrate_Delay(void)$/;"	f	file:
+Clear_Bit	bitset.c	/^void Clear_Bit(void *bitSet, uint_t bitPos)$/;"	f
+Clear_Screen	screen.c	/^void Clear_Screen(void)$/;"	f
+Clear_To_EOL	screen.c	/^static void Clear_To_EOL(void)$/;"	f	file:
+Close	vfs.c	/^int Close(struct File *file)$/;"	f
+Close_Block_Device	blockdev.c	/^int Close_Block_Device(struct Block_Device *dev)$/;"	f
+CompactTries	bget.c	1281;"	d	file:
+Cond_Broadcast	synch.c	/^void Cond_Broadcast(struct Condition* cond)$/;"	f
+Cond_Init	synch.c	/^void Cond_Init(struct Condition* cond)$/;"	f
+Cond_Signal	synch.c	/^void Cond_Signal(struct Condition* cond)$/;"	f
+Cond_Wait	synch.c	/^void Cond_Wait(struct Condition* cond, struct Mutex* mutex)$/;"	f
+Console_State	screen.c	/^struct Console_State {$/;"	s	file:
+Copy_From_User	userseg.c	/^bool Copy_From_User(void* destInKernel, ulong_t srcInUser, ulong_t bufSize)$/;"	f
+Copy_Stat	pfat.c	/^static void Copy_Stat(struct VFS_File_Stat *stat, directoryEntry *entry)$/;"	f	file:
+Copy_To_User	userseg.c	/^bool Copy_To_User(ulong_t destInUser, void* srcInKernel, ulong_t bufSize)$/;"	f
+Create_Bit_Set	bitset.c	/^void* Create_Bit_Set(uint_t totalBits)$/;"	f
+Create_Directory	vfs.c	/^int Create_Directory(const char *path)$/;"	f
+Create_Request	blockdev.c	/^struct Block_Request *Create_Request(struct Block_Device *dev, enum Request_Type type,$/;"	f
+Create_Thread	kthread.c	/^static struct Kernel_Thread* Create_Thread(int priority, bool detached)$/;"	f	file:
+DEFAULT_ATTRIBUTE	screen.c	29;"	d	file:
+DEFAULT_MAX_TICKS	timer.c	38;"	d	file:
+DEFAULT_USER_STACK_SIZE	userseg.c	28;"	d	file:
+DMA_ADDR_REG	dma.c	81;"	d	file:
+DMA_BASE	dma.c	65;"	d	file:
+DMA_CLEAR_FF_REG	dma.c	71;"	d	file:
+DMA_CLEAR_MASK_REG	dma.c	74;"	d	file:
+DMA_COMMAND_REG	dma.c	66;"	d	file:
+DMA_COUNT_REG	dma.c	82;"	d	file:
+DMA_MASK_ALL_REG	dma.c	75;"	d	file:
+DMA_MASK_ENABLE	dma.c	87;"	d	file:
+DMA_MASK_ONE_REG	dma.c	69;"	d	file:
+DMA_MASTER_CLEAR_REG	dma.c	72;"	d	file:
+DMA_MAX_ADDR	dma.c	59;"	d	file:
+DMA_MODE_CASCADE	dma.c	93;"	d	file:
+DMA_MODE_READ	dma.c	94;"	d	file:
+DMA_MODE_REG	dma.c	70;"	d	file:
+DMA_MODE_SINGLE	dma.c	92;"	d	file:
+DMA_MODE_WRITE	dma.c	95;"	d	file:
+DMA_PAGE_REG	dma.c	106;"	d	file:
+DMA_REQUEST_REG	dma.c	68;"	d	file:
+DMA_STATUS_REG	dma.c	67;"	d	file:
+DMA_TEMP_REG	dma.c	73;"	d	file:
+Debug	blockdev.c	21;"	d	file:
+Debug	blockdev.c	23;"	d	file:
+Debug	dma.c	112;"	d	file:
+Debug	dma.c	114;"	d	file:
+Debug	floppy.c	128;"	d	file:
+Debug	floppy.c	130;"	d	file:
+Debug	mem.c	44;"	d	file:
+Debug	pfat.c	44;"	d	file:
+Debug	timer.c	53;"	d	file:
+Debug	timer.c	55;"	d	file:
+Debug	vfs.c	37;"	d	file:
+Delay	setup.asm	/^Delay:$/;"	l
+Delete	vfs.c	/^int Delete(const char *path)$/;"	f
+Dequeue_Keycode	keyboard.c	/^static __inline__ Keycode Dequeue_Keycode(void)$/;"	f	file:
+Dequeue_Request	blockdev.c	/^struct Block_Request *Dequeue_Request(struct Block_Request_List *requestQueue,$/;"	f
+Destroy_Bit_Set	bitset.c	/^void Destroy_Bit_Set(void *bitSet)$/;"	f
+Destroy_Thread	kthread.c	/^static void Destroy_Thread(struct Kernel_Thread* kthread)$/;"	f	file:
+Destroy_User_Context	userseg.c	/^void Destroy_User_Context(struct User_Context* userContext)$/;"	f
+Detach_Thread	kthread.c	/^static void Detach_Thread(struct Kernel_Thread* kthread)$/;"	f	file:
+Detach_User_Context	user.c	/^void Detach_User_Context(struct Kernel_Thread* kthread)$/;"	f
+Disable_IRQ	irq.c	/^void Disable_IRQ(int irq)$/;"	f
+Do_Open	vfs.c	/^static int Do_Open($/;"	f	file:
+Do_Open_Directory	vfs.c	/^static int Do_Open_Directory(struct Mount_Point *mountPoint, const char *path, int mode, struct File **pDir)$/;"	f	file:
+Do_Open_File	vfs.c	/^static int Do_Open_File(struct Mount_Point *mountPoint, const char *path, int mode, struct File **pFile)$/;"	f	file:
+Do_Request	blockdev.c	/^static int Do_Request(struct Block_Device *dev, enum Request_Type type, int blockNum, void *buf)$/;"	f	file:
+Dummy_Interrupt_Handler	int.c	/^static void Dummy_Interrupt_Handler(struct Interrupt_State* state)$/;"	f	file:
+DumpData	bget.c	478;"	d	file:
+Dump_All_Thread_List	kthread.c	/^void Dump_All_Thread_List(void)$/;"	f
+Dump_Interrupt_State	int.c	/^void Dump_Interrupt_State(struct Interrupt_State* state)$/;"	f
+ESC	screen.c	28;"	d	file:
+ESent	bget.c	572;"	d	file:
+EXPORT	lowlevel.asm	/^EXPORT Get_Current_EFLAGS$/;"	l
+EXPORT	lowlevel.asm	/^EXPORT Load_GDTR$/;"	l
+EXPORT	lowlevel.asm	/^EXPORT Load_IDTR$/;"	l
+EXPORT	lowlevel.asm	/^EXPORT Load_LDTR$/;"	l
+EXPORT	lowlevel.asm	/^EXPORT Switch_To_Thread$/;"	l
+EXPORT	lowlevel.asm	/^EXPORT g_entryPointTableEnd$/;"	l
+EXPORT	lowlevel.asm	/^EXPORT g_entryPointTableStart$/;"	l
+EXPORT	lowlevel.asm	/^EXPORT g_handlerSizeErr$/;"	l
+EXPORT	lowlevel.asm	/^EXPORT g_handlerSizeNoErr$/;"	l
+Enable_A20	setup.asm	/^Enable_A20:$/;"	l
+Enable_IRQ	irq.c	/^void Enable_IRQ(int irq)$/;"	f
+End_IRQ	irq.c	/^void End_IRQ(struct Interrupt_State* state)$/;"	f
+Enqueue_Keycode	keyboard.c	/^static __inline__ void Enqueue_Keycode(Keycode keycode)$/;"	f	file:
+Exit	kthread.c	/^void Exit(int exitCode)$/;"	f
+ExpIncr	bget.c	1280;"	d	file:
+FDC_BASE	floppy.c	68;"	d	file:
+FDC_COMMAND_CALIBRATE	floppy.c	97;"	d	file:
+FDC_COMMAND_READ_SECTOR	floppy.c	101;"	d	file:
+FDC_COMMAND_SEEK	floppy.c	99;"	d	file:
+FDC_COMMAND_SENSE_INT_STATUS	floppy.c	98;"	d	file:
+FDC_COMMAND_WRITE_SECTOR	floppy.c	100;"	d	file:
+FDC_DATA_RATE_SELECT_REG	floppy.c	71;"	d	file:
+FDC_DATA_REG	floppy.c	72;"	d	file:
+FDC_DMA	floppy.c	63;"	d	file:
+FDC_DOR_DMA_ENABLE	floppy.c	90;"	d	file:
+FDC_DOR_DRIVE_SELECT	floppy.c	92;"	d	file:
+FDC_DOR_MOTOR	floppy.c	89;"	d	file:
+FDC_DOR_REG	floppy.c	69;"	d	file:
+FDC_DOR_RESET_DISABLE	floppy.c	91;"	d	file:
+FDC_IRQ	floppy.c	58;"	d	file:
+FDC_MFM	floppy.c	107;"	d	file:
+FDC_MULTI_TRACK	floppy.c	106;"	d	file:
+FDC_SKIP_DELETED	floppy.c	108;"	d	file:
+FDC_ST0_IS_SUCCESS	floppy.c	114;"	d	file:
+FDC_ST0_SEEK_END	floppy.c	113;"	d	file:
+FDC_STATUS_ACTIVE	floppy.c	81;"	d	file:
+FDC_STATUS_BUSY	floppy.c	80;"	d	file:
+FDC_STATUS_DIO	floppy.c	78;"	d	file:
+FDC_STATUS_MRQ	floppy.c	77;"	d	file:
+FDC_STATUS_NDMA	floppy.c	79;"	d	file:
+FDC_STATUS_READY_MASK	floppy.c	82;"	d	file:
+FDC_STATUS_READY_READ	floppy.c	84;"	d	file:
+FDC_STATUS_READY_WRITE	floppy.c	83;"	d	file:
+FDC_STATUS_REG	floppy.c	70;"	d	file:
+FILL_DWORD	screen.c	58;"	d	file:
+FIND_NUM_BYTES	bitset.c	23;"	d	file:
+FIND_OFFSET_AND_BIT	bitset.c	17;"	d	file:
+FLOPPY_READ	floppy.c	/^enum { FLOPPY_READ, FLOPPY_WRITE };$/;"	e	enum:__anon1	file:
+FLOPPY_WRITE	floppy.c	/^enum { FLOPPY_READ, FLOPPY_WRITE };$/;"	e	enum:__anon1	file:
+FStat	vfs.c	/^int FStat(struct File *file, struct VFS_File_Stat *stat)$/;"	f
+Filesystem	vfs.c	/^struct Filesystem {$/;"	s	file:
+Find_Best	kthread.c	/^static __inline__ struct Kernel_Thread* Find_Best(struct Thread_Queue* queue)$/;"	f	file:
+Find_First_Free_Bit	bitset.c	/^int Find_First_Free_Bit(void *bitSet, ulong_t totalBits)$/;"	f
+Find_First_N_Free	bitset.c	/^int Find_First_N_Free(void *bitSet, uint_t runLength, ulong_t totalBits)$/;"	f
+Floppy_Close	floppy.c	/^static int Floppy_Close(struct Block_Device *dev)$/;"	f	file:
+Floppy_Drive	floppy.c	/^struct Floppy_Drive {$/;"	s	file:
+Floppy_Get_Num_Blocks	floppy.c	/^static int Floppy_Get_Num_Blocks(struct Block_Device *dev)$/;"	f	file:
+Floppy_In	floppy.c	/^static uchar_t Floppy_In(void)$/;"	f	file:
+Floppy_Interrupt_Handler	floppy.c	/^static void Floppy_Interrupt_Handler(struct Interrupt_State* state)$/;"	f	file:
+Floppy_Open	floppy.c	/^static int Floppy_Open(struct Block_Device *dev)$/;"	f	file:
+Floppy_Out	floppy.c	/^static void Floppy_Out(uchar_t val)$/;"	f	file:
+Floppy_Parameters	floppy.c	/^struct Floppy_Parameters {$/;"	s	file:
+Floppy_Read	floppy.c	/^static int Floppy_Read(int driveNum, int blockNum, char *buffer)$/;"	f	file:
+Floppy_Request_Thread	floppy.c	/^static void Floppy_Request_Thread(ulong_t arg)$/;"	f	file:
+Floppy_Seek	floppy.c	/^static bool Floppy_Seek(int drive, int cylinder, int head)$/;"	f	file:
+Floppy_Transfer	floppy.c	/^static int Floppy_Transfer(int direction, int driveNum, int blockNum, char *buf)$/;"	f	file:
+Floppy_Write	floppy.c	/^static int Floppy_Write(int driveNum, int blockNum, char *buffer)$/;"	f	file:
+Format	vfs.c	/^int Format(const char *devname, const char *fstype)$/;"	f
+Format_Argument_Block	argblock.c	/^void Format_Argument_Block(char *argBlock, unsigned numArgs, ulong_t userAddress,$/;"	f
+Free	malloc.c	/^void Free(void* buf)$/;"	f
+Free_Page	mem.c	/^void Free_Page(void* pageAddr)$/;"	f
+Free_Segment_Descriptor	gdt.c	/^void Free_Segment_Descriptor(struct Segment_Descriptor* desc)$/;"	f
+GDT	setup.asm	/^GDT:$/;"	l
+GDT_ENTRY_SZ	setup.asm	/^GDT_ENTRY_SZ equ 8		; size of a single GDT entry$/;"	d
+GDT_Pointer	setup.asm	/^GDT_Pointer:$/;"	l
+GPF_Handler	trap.c	/^static void GPF_Handler(struct Interrupt_State* state)$/;"	f	file:
+GetParam	bootsect.asm	/^GetParam:$/;"	l
+Get_Arg	screen.c	/^static int Get_Arg(int argNum)$/;"	f	file:
+Get_Argument_Block_Size	argblock.c	/^void Get_Argument_Block_Size(const char *command, unsigned *numArgs, ulong_t *argBlockSize)$/;"	f
+Get_Argument_Len	argblock.c	/^static unsigned Get_Argument_Len(const char *arg)$/;"	f	file:
+Get_Current	kthread.c	/^struct Kernel_Thread* Get_Current(void)$/;"	f
+Get_Current_Attr	screen.c	/^uchar_t Get_Current_Attr(void)$/;"	f
+Get_Current_EFLAGS	lowlevel.asm	/^Get_Current_EFLAGS:$/;"	l
+Get_Cursor	screen.c	/^void Get_Cursor(int* row, int* col)$/;"	f
+Get_Descriptor_Index	gdt.c	/^int Get_Descriptor_Index(struct Segment_Descriptor* desc)$/;"	f
+Get_IRQ_Mask	irq.c	/^ushort_t Get_IRQ_Mask(void)$/;"	f
+Get_Next_Runnable	kthread.c	/^struct Kernel_Thread* Get_Next_Runnable(void)$/;"	f
+Get_Num_Blocks	blockdev.c	/^int Get_Num_Blocks(struct Block_Device *dev)$/;"	f
+Get_PFAT_File	pfat.c	/^static struct PFAT_File *Get_PFAT_File(struct PFAT_Instance *instance, directoryEntry *entry)$/;"	f	file:
+Get_Paging_Device	vfs.c	/^struct Paging_Device *Get_Paging_Device(void)$/;"	f
+Get_Tlocal_Pointer	kthread.c	/^static __inline__ const void** Get_Tlocal_Pointer(tlocal_key_t k) $/;"	f	file:
+HEADS	defs.asm	/^HEADS equ 2$/;"	d
+HIGH_BYTE	ide.c	90;"	d	file:
+Handle_Interrupt	lowlevel.asm	/^Handle_Interrupt:$/;"	l
+ICW1	defs.asm	/^ICW1 equ 0x11		; ICW1 - ICW4 needed, cascade mode, interval=8,$/;"	d
+ICW2_MASTER	defs.asm	/^ICW2_MASTER equ 0x20	; put IRQs 0-7 at 0x20 (above Intel reserved ints)$/;"	d
+ICW2_SLAVE	defs.asm	/^ICW2_SLAVE equ 0x28	; put IRQs 8-15 at 0x28$/;"	d
+ICW3_MASTER	defs.asm	/^ICW3_MASTER equ 0x04	; IR2 connected to slave$/;"	d
+ICW3_SLAVE	defs.asm	/^ICW3_SLAVE equ 0x02	; slave has id 2$/;"	d
+ICW4	defs.asm	/^ICW4 equ 0x01		; 8086 mode, no auto-EOI, non-buffered mode,$/;"	d
+IDE_COMMAND_ATAPI_IDENT_DRIVE	ide.c	55;"	d	file:
+IDE_COMMAND_DIAGNOSTIC	ide.c	54;"	d	file:
+IDE_COMMAND_IDENTIFY_DRIVE	ide.c	48;"	d	file:
+IDE_COMMAND_READ_BUFFER	ide.c	51;"	d	file:
+IDE_COMMAND_READ_SECTORS	ide.c	50;"	d	file:
+IDE_COMMAND_REGISTER	ide.c	40;"	d	file:
+IDE_COMMAND_SEEK	ide.c	49;"	d	file:
+IDE_COMMAND_WRITE_BUFFER	ide.c	53;"	d	file:
+IDE_COMMAND_WRITE_SECTORS	ide.c	52;"	d	file:
+IDE_CONTROL_INT_DISABLE	ide.c	87;"	d	file:
+IDE_CONTROL_REGISTER	ide.c	85;"	d	file:
+IDE_CONTROL_SOFTWARE_RESET	ide.c	86;"	d	file:
+IDE_CYLINDER_HIGH_REGISTER	ide.c	37;"	d	file:
+IDE_CYLINDER_LOW_REGISTER	ide.c	36;"	d	file:
+IDE_Close	ide.c	/^static int IDE_Close(struct Block_Device *dev)$/;"	f	file:
+IDE_DATA_REGISTER	ide.c	31;"	d	file:
+IDE_DCR_NOINTERRUPT	ide.c	75;"	d	file:
+IDE_DCR_RESET	ide.c	76;"	d	file:
+IDE_DEVICE_CONTROL_REGISTER	ide.c	41;"	d	file:
+IDE_DRIVE_0	ide.c	44;"	d	file:
+IDE_DRIVE_1	ide.c	45;"	d	file:
+IDE_DRIVE_HEAD_REGISTER	ide.c	38;"	d	file:
+IDE_ERROR_BAD_DRIVE	ide.c	80;"	d	file:
+IDE_ERROR_DRIVE_ERROR	ide.c	82;"	d	file:
+IDE_ERROR_INVALID_BLOCK	ide.c	81;"	d	file:
+IDE_ERROR_NO_ERROR	ide.c	79;"	d	file:
+IDE_ERROR_REGISTER	ide.c	32;"	d	file:
+IDE_FEATURE_REG	ide.c	33;"	d	file:
+IDE_Get_Num_Blocks	ide.c	/^static int IDE_Get_Num_Blocks(struct Block_Device *dev)$/;"	f	file:
+IDE_INDENTIFY_NUM_BYTES_SECTOR	ide.c	61;"	d	file:
+IDE_INDENTIFY_NUM_BYTES_TRACK	ide.c	60;"	d	file:
+IDE_INDENTIFY_NUM_CYLINDERS	ide.c	58;"	d	file:
+IDE_INDENTIFY_NUM_HEADS	ide.c	59;"	d	file:
+IDE_INDENTIFY_NUM_SECTORS_TRACK	ide.c	62;"	d	file:
+IDE_MAX_DRIVES	ide.c	92;"	d	file:
+IDE_Open	ide.c	/^static int IDE_Open(struct Block_Device *dev)$/;"	f	file:
+IDE_Read	ide.c	/^static int IDE_Read(int driveNum, int blockNum, char *buffer)$/;"	f	file:
+IDE_Request_Thread	ide.c	/^static void IDE_Request_Thread(ulong_t arg)$/;"	f	file:
+IDE_SECTOR_COUNT_REGISTER	ide.c	34;"	d	file:
+IDE_SECTOR_NUMBER_REGISTER	ide.c	35;"	d	file:
+IDE_STATUS_DRIVE_BUSY	ide.c	65;"	d	file:
+IDE_STATUS_DRIVE_CORRECTED_DATA	ide.c	70;"	d	file:
+IDE_STATUS_DRIVE_DATA_REQUEST	ide.c	69;"	d	file:
+IDE_STATUS_DRIVE_ERROR	ide.c	72;"	d	file:
+IDE_STATUS_DRIVE_INDEX	ide.c	71;"	d	file:
+IDE_STATUS_DRIVE_READY	ide.c	66;"	d	file:
+IDE_STATUS_DRIVE_SEEK_COMPLETE	ide.c	68;"	d	file:
+IDE_STATUS_DRIVE_WRITE_FAULT	ide.c	67;"	d	file:
+IDE_STATUS_REGISTER	ide.c	39;"	d	file:
+IDE_Write	ide.c	/^static int IDE_Write(int driveNum, int blockNum, char *buffer)$/;"	f	file:
+IDE_getNumBlocks	ide.c	/^static int IDE_getNumBlocks(int driveNum)$/;"	f	file:
+IDT_Pointer	setup.asm	/^IDT_Pointer:$/;"	l
+IMPORT	lowlevel.asm	/^IMPORT Get_Next_Runnable$/;"	l
+IMPORT	lowlevel.asm	/^IMPORT Make_Runnable$/;"	l
+IMPORT	lowlevel.asm	/^IMPORT Switch_To_User_Context$/;"	l
+IMPORT	lowlevel.asm	/^IMPORT g_currentThread$/;"	l
+IMPORT	lowlevel.asm	/^IMPORT g_interruptTable$/;"	l
+IMPORT	lowlevel.asm	/^IMPORT g_needReschedule$/;"	l
+IMPORT	lowlevel.asm	/^IMPORT g_preemptionDisabled$/;"	l
+INITSEG	defs.asm	/^INITSEG equ 0x9000$/;"	d
+INIT_PROGRAM	main.c	46;"	d	file:
+INTERRUPT_STATE_SIZE	lowlevel.asm	/^INTERRUPT_STATE_SIZE equ 64$/;"	d
+INVALID_FLOPPY_TYPE	floppy.c	147;"	d	file:
+IO_Delay	io.c	/^void IO_Delay(void)$/;"	f
+IS_RESERVED	dma.c	108;"	d	file:
+IS_VALID_FLOPPY_TYPE	floppy.c	162;"	d	file:
+Idle	kthread.c	/^static void Idle(ulong_t arg)$/;"	f	file:
+In_Byte	io.c	/^uchar_t In_Byte(ushort_t port)$/;"	f
+In_Word	io.c	/^ushort_t In_Word(ushort_t port)$/;"	f
+Init_BSS	mem.c	/^void Init_BSS(void)$/;"	f
+Init_CRC32	crc32.c	/^void Init_CRC32(void) {$/;"	f
+Init_Code_Segment_Descriptor	segment.c	/^void Init_Code_Segment_Descriptor($/;"	f
+Init_DMA	dma.c	/^void Init_DMA(void)$/;"	f
+Init_Data_Segment_Descriptor	segment.c	/^void Init_Data_Segment_Descriptor($/;"	f
+Init_Floppy	floppy.c	/^void Init_Floppy(void)$/;"	f
+Init_GDT	gdt.c	/^void Init_GDT(void)$/;"	f
+Init_Heap	malloc.c	/^void Init_Heap(ulong_t start, ulong_t size)$/;"	f
+Init_IDE	ide.c	/^void Init_IDE(void)$/;"	f
+Init_IDT	idt.c	/^void Init_IDT(void)$/;"	f
+Init_Interrupt_Gate	idt.c	/^void Init_Interrupt_Gate(union IDT_Descriptor* desc, ulong_t addr,$/;"	f
+Init_Interrupts	int.c	/^void Init_Interrupts(void)$/;"	f
+Init_Keyboard	keyboard.c	/^void Init_Keyboard(void)$/;"	f
+Init_LDT_Descriptor	segment.c	/^void Init_LDT_Descriptor($/;"	f
+Init_Mem	mem.c	/^void Init_Mem(struct Boot_Info* bootInfo)$/;"	f
+Init_Null_Segment_Descriptor	segment.c	/^void Init_Null_Segment_Descriptor(struct Segment_Descriptor* desc)$/;"	f
+Init_PFAT	pfat.c	/^void Init_PFAT(void)$/;"	f
+Init_PIC	setup.asm	/^Init_PIC:$/;"	l
+Init_Scheduler	kthread.c	/^void Init_Scheduler(void)$/;"	f
+Init_Screen	screen.c	/^void Init_Screen(void)$/;"	f
+Init_TSS	tss.c	/^void Init_TSS(void)$/;"	f
+Init_TSS_Descriptor	segment.c	/^void Init_TSS_Descriptor(struct Segment_Descriptor* desc, struct TSS* theTSS)$/;"	f
+Init_Thread	kthread.c	/^static void Init_Thread(struct Kernel_Thread* kthread, void* stackPage,$/;"	f	file:
+Init_Timer	timer.c	/^void Init_Timer(void)$/;"	f
+Init_Traps	trap.c	/^void Init_Traps(void)$/;"	f
+Install_IRQ	irq.c	/^void Install_IRQ(int irq, Interrupt_Handler handler)$/;"	f
+Install_Interrupt_Handler	idt.c	/^void Install_Interrupt_Handler(int interrupt, Interrupt_Handler handler)$/;"	f
+Int_No_Err	lowlevel.asm	/^Int_No_Err 0$/;"	l
+Int_No_Err	lowlevel.asm	/^Int_No_Err 1$/;"	l
+Int_No_Err	lowlevel.asm	/^Int_No_Err 15	; FIXME: not described in 486 manual$/;"	l
+Int_No_Err	lowlevel.asm	/^Int_No_Err 16$/;"	l
+Int_No_Err	lowlevel.asm	/^Int_No_Err 2	; FIXME: not described in 486 manual$/;"	l
+Int_No_Err	lowlevel.asm	/^Int_No_Err 3$/;"	l
+Int_No_Err	lowlevel.asm	/^Int_No_Err 4$/;"	l
+Int_No_Err	lowlevel.asm	/^Int_No_Err 5$/;"	l
+Int_No_Err	lowlevel.asm	/^Int_No_Err 6$/;"	l
+Int_No_Err	lowlevel.asm	/^Int_No_Err 7$/;"	l
+Int_No_Err	lowlevel.asm	/^Int_No_Err 9	; FIXME: not described in 486 manual$/;"	l
+Int_No_Err	lowlevel.asm	/^Int_No_Err intNum$/;"	l
+Int_With_Err	lowlevel.asm	/^Int_With_Err 10$/;"	l
+Int_With_Err	lowlevel.asm	/^Int_With_Err 11$/;"	l
+Int_With_Err	lowlevel.asm	/^Int_With_Err 12$/;"	l
+Int_With_Err	lowlevel.asm	/^Int_With_Err 13$/;"	l
+Int_With_Err	lowlevel.asm	/^Int_With_Err 14$/;"	l
+Int_With_Err	lowlevel.asm	/^Int_With_Err 17$/;"	l
+Int_With_Err	lowlevel.asm	/^Int_With_Err 8$/;"	l
+Interrupts_Enabled	int.c	/^bool Interrupts_Enabled(void)$/;"	f
+Is_Bit_Set	bitset.c	/^bool Is_Bit_Set(void *bitSet, uint_t bitPos)$/;"	f
+Is_Queue_Empty	keyboard.c	/^static __inline__ bool Is_Queue_Empty(void)$/;"	f	file:
+Is_Queue_Full	keyboard.c	/^static __inline__ bool Is_Queue_Full(void)$/;"	f	file:
+Is_Space	argblock.c	/^static bool Is_Space(int c)$/;"	f	file:
+Join	kthread.c	/^int Join(struct Kernel_Thread* kthread)$/;"	f
+KERNEL_CS	defs.asm	/^KERNEL_CS equ 1<<3	; kernel code segment is GDT entry 1$/;"	d
+KERNEL_DS	defs.asm	/^KERNEL_DS equ 2<<3	; kernel data segment is GDT entry 2$/;"	d
+KERNSEG	defs.asm	/^KERNSEG equ 0x1000$/;"	d
+KERN_STACK	defs.asm	/^KERN_STACK equ KERN_THREAD_OBJ + 4096$/;"	d
+KERN_THREAD_OBJ	defs.asm	/^KERN_THREAD_OBJ equ (1024*1024)$/;"	d
+Keyboard_Interrupt_Handler	keyboard.c	/^static void Keyboard_Interrupt_Handler(struct Interrupt_State* state)$/;"	f	file:
+Kill_Motor	setup.asm	/^Kill_Motor:$/;"	l
+LBA_To_CHS	floppy.c	/^static void LBA_To_CHS(struct Floppy_Drive* drive, int lba, int *cylinder, int *head, int *sector)$/;"	f	file:
+LEFT_ALT	keyboard.c	49;"	d	file:
+LEFT_CTRL	keyboard.c	47;"	d	file:
+LEFT_SHIFT	keyboard.c	45;"	d	file:
+LOW_BYTE	ide.c	89;"	d	file:
+Launch_Thread	kthread.c	/^static void Launch_Thread(void)$/;"	f	file:
+Load_GDTR	lowlevel.asm	/^Load_GDTR:$/;"	l
+Load_IDTR	lowlevel.asm	/^Load_IDTR:$/;"	l
+Load_LDTR	lowlevel.asm	/^Load_LDTR:$/;"	l
+Load_Task_Register	tss.c	/^static void __inline__ Load_Task_Register(void)$/;"	f	file:
+Load_User_Program	userseg.c	/^int Load_User_Program(char *exeFileData, ulong_t exeFileLength,$/;"	f
+Lookup_Filesystem	vfs.c	/^static struct Filesystem *Lookup_Filesystem(const char *fstype)$/;"	f	file:
+Lookup_Mount_Point	vfs.c	/^static struct Mount_Point *Lookup_Mount_Point(const char *prefix)$/;"	f	file:
+Lookup_Thread	kthread.c	/^struct Kernel_Thread* Lookup_Thread(int pid)$/;"	f
+MASTER	irq.c	29;"	d	file:
+MAXARGS	screen.c	39;"	d	file:
+MAX_PREFIX_LEN	vfs.c	63;"	d	file:
+Main	main.c	/^void Main(struct Boot_Info* bootInfo)$/;"	f
+Make_Runnable	kthread.c	/^void Make_Runnable(struct Kernel_Thread* kthread)$/;"	f
+Make_Runnable_Atomic	kthread.c	/^void Make_Runnable_Atomic(struct Kernel_Thread* kthread)$/;"	f
+Malloc	malloc.c	/^void* Malloc(ulong_t size)$/;"	f
+Mask_DMA	dma.c	/^void Mask_DMA(int chan)$/;"	f
+MemSize	bget.c	491;"	d	file:
+Micro_Delay	timer.c	/^void Micro_Delay(int us)$/;"	f
+Mount	vfs.c	/^int Mount(const char *devname, const char *pathPrefix, const char *fstype)$/;"	f
+Mount_Root_Filesystem	main.c	/^static void Mount_Root_Filesystem(void)$/;"	f	file:
+Move_Cursor	screen.c	/^static void Move_Cursor(int row, int col)$/;"	f	file:
+Mutex_Init	synch.c	/^void Mutex_Init(struct Mutex* mutex)$/;"	f
+Mutex_Lock	synch.c	/^void Mutex_Lock(struct Mutex* mutex)$/;"	f
+Mutex_Lock_Imp	synch.c	/^static __inline__ void Mutex_Lock_Imp(struct Mutex* mutex)$/;"	f	file:
+Mutex_Unlock	synch.c	/^void Mutex_Unlock(struct Mutex* mutex)$/;"	f
+Mutex_Unlock_Imp	synch.c	/^static __inline__ void Mutex_Unlock_Imp(struct Mutex* mutex)$/;"	f	file:
+Mutex_Wait	synch.c	/^static void Mutex_Wait(struct Mutex *mutex)$/;"	f	file:
+NDEBUG	bget.c	466;"	d	file:
+NEXT	keyboard.c	62;"	d	file:
+NUM_DWORDS_PER_LINE	screen.c	57;"	d	file:
+NUM_FLOPPY_TYPES	floppy.c	161;"	d	file:
+NUM_GDT_ENTRIES	gdt.c	28;"	d	file:
+NUM_GDT_ENTRIES	setup.asm	/^NUM_GDT_ENTRIES equ 3		; number of entries in GDT$/;"	d
+NUM_SCREEN_DWORDS	screen.c	55;"	d	file:
+NUM_SCROLL_DWORDS	screen.c	56;"	d	file:
+Newline	screen.c	/^static void Newline(void)$/;"	f	file:
+Notify_Request_Completion	blockdev.c	/^void Notify_Request_Completion(struct Block_Request *request, enum Request_State state, int errorCode)$/;"	f
+OUR_RAND	bget.c	1271;"	d	file:
+Open	vfs.c	/^int Open(const char *path, int mode, struct File **pFile)$/;"	f
+Open_Block_Device	blockdev.c	/^int Open_Block_Device(const char *name, struct Block_Device **pDev)$/;"	f
+Open_Directory	vfs.c	/^int Open_Directory(const char *path, struct File **pDir)$/;"	f
+Out_Byte	io.c	/^void Out_Byte(ushort_t port, uchar_t value)$/;"	f
+Out_Word	io.c	/^void Out_Word(ushort_t port, ushort_t value)$/;"	f
+Output_Literal_Character	screen.c	/^static void Output_Literal_Character(int c)$/;"	f	file:
+PAGEFILE_FILENAME	pfat.c	41;"	d	file:
+PFAT_BOOT_RECORD_OFFSET	defs.asm	/^PFAT_BOOT_RECORD_OFFSET equ BIOS_SIGNATURE_OFFSET - PFAT_BOOT_RECORD_SIZE$/;"	d
+PFAT_BOOT_RECORD_SIZE	bootsect.asm	/^PFAT_BOOT_RECORD_SIZE equ 28$/;"	d
+PFAT_BOOT_RECORD_SIZE	defs.asm	/^PFAT_BOOT_RECORD_SIZE equ 28$/;"	d
+PFAT_Close	pfat.c	/^static int PFAT_Close(struct File *file)$/;"	f	file:
+PFAT_Close_Dir	pfat.c	/^static int PFAT_Close_Dir(struct File *dir)$/;"	f	file:
+PFAT_FStat	pfat.c	/^static int PFAT_FStat(struct File *file, struct VFS_File_Stat *stat)$/;"	f	file:
+PFAT_FStat_Dir	pfat.c	/^static int PFAT_FStat_Dir(struct File *dir, struct VFS_File_Stat *stat)$/;"	f	file:
+PFAT_File	pfat.c	/^struct PFAT_File {$/;"	s	file:
+PFAT_Instance	pfat.c	/^struct PFAT_Instance {$/;"	s	file:
+PFAT_Lookup	pfat.c	/^static directoryEntry *PFAT_Lookup(struct PFAT_Instance *instance, const char *path)$/;"	f	file:
+PFAT_Mount	pfat.c	/^static int PFAT_Mount(struct Mount_Point *mountPoint)$/;"	f	file:
+PFAT_Open	pfat.c	/^static int PFAT_Open(struct Mount_Point *mountPoint, const char *path, int mode, struct File **pFile)$/;"	f	file:
+PFAT_Open_Directory	pfat.c	/^static int PFAT_Open_Directory(struct Mount_Point *mountPoint, const char *path, struct File **pDir)$/;"	f	file:
+PFAT_Read	pfat.c	/^static int PFAT_Read(struct File *file, void *buf, ulong_t numBytes)$/;"	f	file:
+PFAT_Read_Entry	pfat.c	/^static int PFAT_Read_Entry(struct File *dir, struct VFS_Dir_Entry *entry)$/;"	f	file:
+PFAT_Register_Paging_File	pfat.c	/^static void PFAT_Register_Paging_File(struct Mount_Point *mountPoint, struct PFAT_Instance *instance)$/;"	f	file:
+PFAT_Seek	pfat.c	/^static int PFAT_Seek(struct File *file, ulong_t pos)$/;"	f	file:
+PFAT_Stat	pfat.c	/^static int PFAT_Stat(struct Mount_Point *mountPoint, const char *path, struct VFS_File_Stat *stat)$/;"	f	file:
+PFAT_Sync	pfat.c	/^static int PFAT_Sync(struct Mount_Point *mountPoint)$/;"	f	file:
+PFAT_Write	pfat.c	/^static int PFAT_Write(struct File *file, void *buf, ulong_t numBytes)$/;"	f	file:
+POLYNOMIAL	crc32.c	12;"	d	file:
+PadFromStart	bootsect.asm	/^PadFromStart BIOS_SIGNATURE_OFFSET - PFAT_BOOT_RECORD_SIZE$/;"	l
+PadFromStart	bootsect.asm	/^PadFromStart BIOS_SIGNATURE_OFFSET$/;"	l
+Pad_From_Symbol	fd_boot.asm	/^Pad_From_Symbol BIOS_SIGNATURE_OFFSET, BeginText$/;"	l
+Pad_From_Symbol	fd_boot.asm	/^Pad_From_Symbol PFAT_BOOT_RECORD_OFFSET, BeginText$/;"	l
+Parse_ELF_Executable	elf.c	/^int Parse_ELF_Executable(char *exeFileData, ulong_t exeFileLength,$/;"	f
+PoolSize	bget.c	1276;"	d	file:
+PoolSize	bget.c	1278;"	d	file:
+Post_Request_And_Wait	blockdev.c	/^void Post_Request_And_Wait(struct Block_Request *request)$/;"	f
+Print	screen.c	/^void Print(const char *fmt, ...)$/;"	f
+PrintHex	util.asm	/^PrintHex:$/;"	l
+PrintNL	util.asm	/^PrintNL:			; print CR and NL$/;"	l
+Print_Emit	screen.c	/^static void Print_Emit(struct Output_Sink *o, int ch) { Put_Char_Imp(ch); }$/;"	f	file:
+Print_Finish	screen.c	/^static void Print_Finish(struct Output_Sink *o) { Update_Cursor(); }$/;"	f	file:
+Print_Selector	int.c	/^static void Print_Selector(const char* regName, uint_t value)$/;"	f	file:
+Push	kthread.c	/^static __inline__ void Push(struct Kernel_Thread* kthread, ulong_t value)$/;"	f	file:
+Push_General_Registers	kthread.c	/^static void Push_General_Registers(struct Kernel_Thread* kthread)$/;"	f	file:
+Put_Buf	screen.c	/^void Put_Buf(const char* buf, ulong_t length)$/;"	f
+Put_Char	screen.c	/^void Put_Char(int c)$/;"	f
+Put_Char_Imp	screen.c	/^static void Put_Char_Imp(int c)$/;"	f	file:
+Put_Cursor	screen.c	/^bool Put_Cursor(int row, int col)$/;"	f
+Put_Graphic_Char	screen.c	/^static void Put_Graphic_Char(int c)$/;"	f	file:
+Put_String	screen.c	/^void Put_String(const char* s)$/;"	f
+QLSize	bget.c	563;"	d	file:
+QUEUE_MASK	keyboard.c	61;"	d	file:
+QUEUE_SIZE	keyboard.c	60;"	d	file:
+REG_SKIP	lowlevel.asm	/^REG_SKIP equ (11*4)$/;"	d
+RIGHT_ALT	keyboard.c	50;"	d	file:
+RIGHT_CTRL	keyboard.c	48;"	d	file:
+RIGHT_SHIFT	keyboard.c	46;"	d	file:
+ROOT_DEVICE	main.c	39;"	d	file:
+ROOT_DEVICE	main.c	42;"	d	file:
+ROOT_PREFIX	main.c	40;"	d	file:
+ROOT_PREFIX	main.c	43;"	d	file:
+Read	vfs.c	/^int Read(struct File *file, void *buf, ulong_t len)$/;"	f
+ReadSector	bootsect.asm	/^ReadSector:$/;"	l
+ReadSector	fd_boot.asm	/^ReadSector:$/;"	l
+Read_Entry	vfs.c	/^int Read_Entry(struct File *file, struct VFS_Dir_Entry *entry)$/;"	f
+Read_Fully	vfs.c	/^int Read_Fully(const char *path, void **pBuffer, ulong_t *pLen)$/;"	f
+Read_Key	keyboard.c	/^bool Read_Key(Keycode* keycode)$/;"	f
+Reap_Thread	kthread.c	/^static void Reap_Thread(struct Kernel_Thread* kthread)$/;"	f	file:
+Reaper	kthread.c	/^static void Reaper(ulong_t arg)$/;"	f	file:
+Register_Block_Device	blockdev.c	/^int Register_Block_Device(const char *name, struct Block_Device_Ops *ops,$/;"	f
+Register_Filesystem	vfs.c	/^bool Register_Filesystem(const char *fsName, struct Filesystem_Ops *fsOps)$/;"	f
+Register_Paging_Device	vfs.c	/^void Register_Paging_Device(struct Paging_Device *pagingDevice)$/;"	f
+Repeatable	bget.c	1265;"	d	file:
+Reserve_DMA	dma.c	/^bool Reserve_DMA(int chan)$/;"	f
+Reset	screen.c	/^static void Reset(void)$/;"	f	file:
+Reset_Controller	floppy.c	/^static bool Reset_Controller(void)$/;"	f	file:
+Restore_Cursor	screen.c	/^static void Restore_Cursor(void)$/;"	f	file:
+SCAN_TABLE_SIZE	keyboard.c	98;"	d	file:
+SECTORS_PER_TRACK	defs.asm	/^SECTORS_PER_TRACK equ 18$/;"	d
+SETUPSEG	defs.asm	/^SETUPSEG equ 0x9020$/;"	d
+SHIFT_MASK	keyboard.c	51;"	d	file:
+SLAVE	irq.c	30;"	d	file:
+S_ARG	screen.c	/^    S_ARG,		\/* Scanning a numeric argument *\/$/;"	e	enum:State	file:
+S_CMD	screen.c	/^    S_CMD,		\/* Command *\/$/;"	e	enum:State	file:
+S_ESC	screen.c	/^    S_ESC,		\/* Saw ESC character - begin output escape sequence *\/$/;"	e	enum:State	file:
+S_ESC2	screen.c	/^    S_ESC2,		\/* Saw '[' character - continue output escape sequence *\/$/;"	e	enum:State	file:
+S_NORMAL	screen.c	/^    S_NORMAL,		\/* Normal state - output is echoed verbatim *\/$/;"	e	enum:State	file:
+Save_Cursor	screen.c	/^static void Save_Cursor(void)$/;"	f	file:
+Schedule	kthread.c	/^void Schedule(void)$/;"	f
+Scroll	screen.c	/^static void Scroll(void)$/;"	f	file:
+Seek	vfs.c	/^int Seek(struct File *file, ulong_t len)$/;"	f
+Sense_Interrupt_Status	floppy.c	/^static void Sense_Interrupt_Status(uchar_t* st0, uchar_t *pcn)$/;"	f	file:
+Set_Bit	bitset.c	/^void Set_Bit(void *bitSet, uint_t bitPos)$/;"	f
+Set_Current_Attr	screen.c	/^void Set_Current_Attr(uchar_t attrib)$/;"	f
+Set_IRQ_Mask	irq.c	/^void Set_IRQ_Mask(ushort_t mask)$/;"	f
+Set_Kernel_Stack_Pointer	tss.c	/^void Set_Kernel_Stack_Pointer(ulong_t esp0)$/;"	f
+Set_Size_And_Base_Bytes	segment.c	/^static __inline__ void Set_Size_And_Base_Bytes($/;"	f	file:
+Set_Size_And_Base_Pages	segment.c	/^static __inline__ void Set_Size_And_Base_Pages($/;"	f	file:
+Setup_DMA	dma.c	/^void Setup_DMA(enum DMA_Direction direction, int chan, void *addr_, ulong_t size)$/;"	f
+Setup_Drive_Parameters	floppy.c	/^static void Setup_Drive_Parameters(int drive, int type)$/;"	f	file:
+Setup_Kernel_Thread	kthread.c	/^static void Setup_Kernel_Thread($/;"	f	file:
+Setup_User_Thread	kthread.c	/^\/*static*\/ void Setup_User_Thread($/;"	f
+Shutdown_Thread	kthread.c	/^static void Shutdown_Thread(void)$/;"	f	file:
+Signature	bootsect.asm	/^Signature   dw 0xAA55   ; BIOS controls this to ensure this is a boot sector$/;"	d
+Signature	fd_boot.asm	/^Signature   dw 0xAA55   ; BIOS controls this to ensure this is a boot sector$/;"	d
+SizeQ	bget.c	564;"	d	file:
+SizeQuant	bget.c	413;"	d	file:
+Skip_Whitespace	argblock.c	/^static const char *Skip_Whitespace(const char *s)$/;"	f	file:
+Spawn	user.c	/^int Spawn(const char *program, const char *command, struct Kernel_Thread **pThread)$/;"	f
+Spawn_Init_Process	main.c	/^static void Spawn_Init_Process(void)$/;"	f	file:
+Spin	timer.c	/^static void Spin(int count)$/;"	f	file:
+Start_Arg	screen.c	/^static void Start_Arg(int argNum)$/;"	f	file:
+Start_Escape	screen.c	/^static void Start_Escape(void)$/;"	f	file:
+Start_Kernel_Thread	kthread.c	/^struct Kernel_Thread* Start_Kernel_Thread($/;"	f
+Start_Motor	floppy.c	/^static void Start_Motor(int drive)$/;"	f	file:
+Start_User_Thread	kthread.c	/^Start_User_Thread(struct User_Context* userContext, bool detached)$/;"	f
+Stat	vfs.c	/^int Stat(const char *path, struct VFS_File_Stat *stat)$/;"	f
+State	screen.c	/^enum State {$/;"	g	file:
+Stop_Motor	floppy.c	/^static void Stop_Motor(int drive)$/;"	f	file:
+Switch_To_Address_Space	userseg.c	/^void Switch_To_Address_Space(struct User_Context *userContext)$/;"	f
+Switch_To_Thread	lowlevel.asm	/^Switch_To_Thread:$/;"	l
+Switch_To_User_Context	user.c	/^void Switch_To_User_Context(struct Kernel_Thread* kthread, struct Interrupt_State* state)$/;"	f
+Sync	vfs.c	/^int Sync(void)$/;"	f
+Sys_Exit	syscall.c	/^static int Sys_Exit(struct Interrupt_State* state)$/;"	f	file:
+Sys_GetCursor	syscall.c	/^static int Sys_GetCursor(struct Interrupt_State* state)$/;"	f	file:
+Sys_GetKey	syscall.c	/^static int Sys_GetKey(struct Interrupt_State* state)$/;"	f	file:
+Sys_GetPID	syscall.c	/^static int Sys_GetPID(struct Interrupt_State* state)$/;"	f	file:
+Sys_Null	syscall.c	/^static int Sys_Null(struct Interrupt_State* state)$/;"	f	file:
+Sys_PrintString	syscall.c	/^static int Sys_PrintString(struct Interrupt_State* state)$/;"	f	file:
+Sys_PutCursor	syscall.c	/^static int Sys_PutCursor(struct Interrupt_State* state)$/;"	f	file:
+Sys_SetAttr	syscall.c	/^static int Sys_SetAttr(struct Interrupt_State* state)$/;"	f	file:
+Sys_Spawn	syscall.c	/^static int Sys_Spawn(struct Interrupt_State* state)$/;"	f	file:
+Sys_Wait	syscall.c	/^static int Sys_Wait(struct Interrupt_State* state)$/;"	f	file:
+Syscall_Handler	trap.c	/^static void Syscall_Handler(struct Interrupt_State* state)$/;"	f	file:
+TICKS_PER_SEC	timer.c	49;"	d	file:
+Timer_Calibrate	timer.c	/^static void Timer_Calibrate(struct Interrupt_State* state)$/;"	f	file:
+Timer_Interrupt_Handler	timer.c	/^static void Timer_Interrupt_Handler(struct Interrupt_State* state)$/;"	f	file:
+Tlocal_Create	kthread.c	/^int Tlocal_Create(tlocal_key_t *key, tlocal_destructor_t destructor) $/;"	f
+Tlocal_Exit	kthread.c	/^static void Tlocal_Exit(struct Kernel_Thread* curr) {$/;"	f	file:
+Tlocal_Get	kthread.c	/^void *Tlocal_Get(tlocal_key_t k) $/;"	f
+Tlocal_Put	kthread.c	/^void Tlocal_Put(tlocal_key_t k, const void *v) $/;"	f
+US_PER_TICK	timer.c	192;"	d	file:
+Unmask_DMA	dma.c	/^void Unmask_DMA(int chan)$/;"	f
+Unpack_Path	vfs.c	/^static bool Unpack_Path(const char *path, char *prefix, const char **pSuffix)$/;"	f	file:
+Update_Attributes	screen.c	/^static void Update_Attributes(void)$/;"	f	file:
+Update_Cursor	screen.c	/^static void Update_Cursor(void)$/;"	f	file:
+V	bget.c	566;"	d	file:
+VALID_CHANNEL	dma.c	53;"	d	file:
+VALID_MEM	dma.c	60;"	d	file:
+VIDSEG	defs.asm	/^VIDSEG equ 0xb800$/;"	d
+Validate_User_Memory	userseg.c	/^static bool Validate_User_Memory(struct User_Context* userContext,$/;"	f	file:
+Wait	kthread.c	/^void Wait(struct Thread_Queue* waitQueue)$/;"	f
+Wait_For_Interrupt	floppy.c	/^static void Wait_For_Interrupt(void)$/;"	f	file:
+Wait_For_Key	keyboard.c	/^Keycode Wait_For_Key(void)$/;"	f
+Wait_For_MRQ	floppy.c	/^static void Wait_For_MRQ(uchar_t readyValue)$/;"	f	file:
+Wake_Up	kthread.c	/^void Wake_Up(struct Thread_Queue* waitQueue)$/;"	f
+Wake_Up_One	kthread.c	/^void Wake_Up_One(struct Thread_Queue* waitQueue)$/;"	f
+Write	vfs.c	/^int Write(struct File *file, void *buf, ulong_t len)$/;"	f
+Yield	kthread.c	/^void Yield(void)$/;"	f
+acqfcn	bget.c	/^static void *(*acqfcn) _((bufsize size)) = NULL;$/;"	v	file:
+after_move	bootsect.asm	/^after_move:$/;"	l
+after_move	fd_boot.asm	/^after_move:$/;"	l
+argList	screen.c	/^    int argList[MAXARGS];$/;"	m	struct:Console_State	file:
+assert	bget.c	459;"	d	file:
+bchain	bget.c	/^static char *bchain = NULL;	      \/* Our private buffer chain *\/$/;"	v	file:
+bcompact	bget.c	/^static int bcompact(bsize, seq)$/;"	f	file:
+bdhead	bget.c	/^struct bdhead {$/;"	s	file:
+bectl	bget.c	/^void bectl(compact, acquire, release, pool_incr)$/;"	f
+bexpand	bget.c	/^static void *bexpand(size)$/;"	f	file:
+bfhead	bget.c	/^struct bfhead {$/;"	s	file:
+bget	bget.c	/^void *bget(requested_size)$/;"	f
+bgetr	bget.c	/^void *bgetr(buf, size)$/;"	f
+bgetz	bget.c	/^void *bgetz(size)$/;"	f
+bh	bget.c	/^    struct bhead bh;		      \/* Common allocated\/free header *\/$/;"	m	struct:bfhead	typeref:struct:bfhead::bhead	file:
+bh	bget.c	/^    struct bhead bh;		      \/* Common header *\/$/;"	m	struct:bdhead	typeref:struct:bdhead::bhead	file:
+bhead	bget.c	/^struct bhead {$/;"	s	file:
+blimit	bget.c	/^static bufsize blimit(bs)$/;"	f	file:
+blink	bget.c	/^    struct bfhead *blink;	      \/* Backward link *\/$/;"	m	struct:qlinks	typeref:struct:qlinks::bfhead	file:
+bp	bget.c	/^static char *bp = NULL; 	      \/* Our initial buffer pool *\/$/;"	v	file:
+bpool	bget.c	/^void bpool(buf, len)$/;"	f
+bpoold	bget.c	/^void bpoold(buf, dumpalloc, dumpfree)$/;"	f
+bpoolv	bget.c	/^int bpoolv(buf)$/;"	f
+brel	bget.c	/^void brel(buf)$/;"	f
+bshrink	bget.c	/^static void bshrink(buf)$/;"	f	file:
+bsize	bget.c	/^    bufsize bsize;		      \/* Buffer size: positive if free,$/;"	m	struct:bhead	file:
+bstats	bget.c	/^void bstats(curalloc, totfree, maxfree, nget, nrel)$/;"	f
+bstatse	bget.c	/^void bstatse(pool_incr, npool, npget, nprel, ndget, ndrel)$/;"	f
+bufdump	bget.c	/^void bufdump(buf)$/;"	f
+col	screen.c	/^    int row, col;$/;"	m	struct:Console_State	file:
+compfcn	bget.c	/^static int (*compfcn) _((bufsize sizereq, int sequence)) = NULL;$/;"	v	file:
+crc32	crc32.c	/^ulong_t crc32(ulong_t crc, char const *buf, size_t len) {$/;"	f
+crc_table	crc32.c	/^static ulong_t crc_table[256];$/;"	v	file:
+currentAttr	screen.c	/^    uchar_t currentAttr;$/;"	m	struct:Console_State	file:
+cylinders	floppy.c	/^    int cylinders;$/;"	m	struct:Floppy_Parameters	file:
+dead	bootsect.asm	/^dead:$/;"	l
+debugPFAT	pfat.c	/^int debugPFAT = 0;$/;"	v
+debugVFS	vfs.c	/^int debugVFS = 0;$/;"	v
+drives	ide.c	/^static ideDisk drives[IDE_MAX_DRIVES];$/;"	v	file:
+dumpAlloc	bget.c	1283;"	d	file:
+dumpFree	bget.c	1284;"	d	file:
+entry	pfat.c	/^    directoryEntry *entry;		 \/* Directory entry of the file *\/$/;"	m	struct:PFAT_File	file:
+exp_incr	bget.c	/^static bufsize exp_incr = 0;	      \/* Expansion block size *\/$/;"	v	file:
+fat	pfat.c	/^    int *fat;$/;"	m	struct:PFAT_Instance	file:
+fileDataCache	pfat.c	/^    char *fileDataCache;		 \/* File data cache *\/$/;"	m	struct:PFAT_File	file:
+fileList	pfat.c	/^    struct PFAT_File_List fileList;$/;"	m	struct:PFAT_Instance	typeref:struct:PFAT_Instance::PFAT_File_List	file:
+flink	bget.c	/^    struct bfhead *flink;	      \/* Forward link *\/$/;"	m	struct:qlinks	typeref:struct:qlinks::bfhead	file:
+freelist	bget.c	/^static struct bfhead freelist = {     \/* List of free buffers *\/$/;"	v	typeref:struct:bfhead	file:
+fsName	vfs.c	/^    char fsName[VFS_MAX_FS_NAME_LEN + 1];$/;"	m	struct:Filesystem	file:
+fsinfo	pfat.c	/^    bootSector fsinfo;$/;"	m	struct:PFAT_Instance	file:
+g_Quantum	timer.c	/^int g_Quantum = DEFAULT_MAX_TICKS;$/;"	v
+g_currentThread	kthread.c	/^struct Kernel_Thread* g_currentThread;$/;"	v	typeref:struct:Kernel_Thread
+g_entryPointTableEnd	lowlevel.asm	/^g_entryPointTableEnd:$/;"	l
+g_entryPointTableStart	lowlevel.asm	/^g_entryPointTableStart:$/;"	l
+g_freePageCount	mem.c	/^uint_t g_freePageCount = 0;$/;"	v
+g_handlerSizeErr	lowlevel.asm	/^g_handlerSizeErr: dd (After_Err - Before_Err)$/;"	d
+g_handlerSizeNoErr	lowlevel.asm	/^g_handlerSizeNoErr: dd (After_No_Err - Before_No_Err)$/;"	d
+g_interruptTable	idt.c	/^Interrupt_Handler g_interruptTable[ NUM_IDT_ENTRIES ];$/;"	v
+g_needReschedule	kthread.c	/^int g_needReschedule;$/;"	v
+g_numSyscalls	syscall.c	/^const int g_numSyscalls = sizeof(g_syscallTable) \/ sizeof(Syscall);$/;"	v
+g_numTicks	timer.c	/^volatile ulong_t g_numTicks;$/;"	v
+g_pageList	mem.c	/^struct Page* g_pageList;$/;"	v	typeref:struct:Page
+g_preemptionDisabled	kthread.c	/^volatile int g_preemptionDisabled;$/;"	v
+g_syscallTable	syscall.c	/^const Syscall g_syscallTable[] = {$/;"	v
+gapLengthCode	floppy.c	/^    int gapLengthCode;$/;"	m	struct:Floppy_Parameters	file:
+head	bootsect.asm	/^head: dw 0$/;"	d
+head	fd_boot.asm	/^head: dw 0$/;"	d
+heads	floppy.c	/^    int heads;$/;"	m	struct:Floppy_Parameters	file:
+ideDebug	ide.c	/^int ideDebug = 0;$/;"	v
+ideDisk	ide.c	/^} ideDisk;$/;"	t	typeref:struct:__anon2	file:
+kernelSize	bootsect.asm	/^kernelSize:$/;"	l
+kernelSize	fd_boot.asm	/^kernelSize:$/;"	l
+kernelStart	bootsect.asm	/^kernelStart:$/;"	l
+kernelStart	fd_boot.asm	/^kernelStart:$/;"	l
+load_kernel	bootsect.asm	/^load_kernel:$/;"	l
+load_kernel	fd_boot.asm	/^load_kernel:$/;"	l
+load_setup	bootsect.asm	/^load_setup:$/;"	l
+load_setup	fd_boot.asm	/^load_setup:$/;"	l
+lock	pfat.c	/^    struct Mutex lock;			 \/* Synchronize concurrent accesses *\/$/;"	m	struct:PFAT_File	typeref:struct:PFAT_File::Mutex	file:
+lock	pfat.c	/^    struct Mutex lock;$/;"	m	struct:PFAT_Instance	typeref:struct:PFAT_Instance::Mutex	file:
+main	bget.c	/^int main()$/;"	f
+max_sector	fd_boot.asm	/^max_sector: dw 0$/;"	d
+mem_size_kbytes	setup.asm	/^mem_size_kbytes: dw 0$/;"	d
+next	bget.c	/^static ulong_t int next = 1;$/;"	v	file:
+numArgs	screen.c	/^    int numArgs;$/;"	m	struct:Console_State	file:
+numBlocks	pfat.c	/^    ulong_t numBlocks;			 \/* Number of blocks used by file *\/$/;"	m	struct:PFAT_File	file:
+numCylinders	bootsect.asm	/^numCylinders:	dw 0$/;"	d
+numDrives	ide.c	/^static int numDrives;$/;"	v	file:
+numHeads	bootsect.asm	/^numHeads:		dw HEADS$/;"	d
+num_BytesPerSector	ide.c	/^    short num_BytesPerSector;$/;"	m	struct:__anon2	file:
+num_Cylinders	ide.c	/^    short num_Cylinders;$/;"	m	struct:__anon2	file:
+num_Heads	ide.c	/^    short num_Heads;$/;"	m	struct:__anon2	file:
+num_SectorsPerTrack	ide.c	/^    short num_SectorsPerTrack;$/;"	m	struct:__anon2	file:
+num_retries	bootsect.asm	/^num_retries: db 0$/;"	d
+num_retries	fd_boot.asm	/^num_retries: db 0$/;"	d
+numdget	bget.c	/^static long numdget = 0, numdrel = 0; \/* Number of direct gets and rels *\/$/;"	v	file:
+numdrel	bget.c	/^static long numdget = 0, numdrel = 0; \/* Number of direct gets and rels *\/$/;"	v	file:
+numget	bget.c	/^static long numget = 0, numrel = 0;   \/* Number of bget() and brel() calls *\/$/;"	v	file:
+numpblk	bget.c	/^static long numpblk = 0;	      \/* Number of pool blocks *\/$/;"	v	file:
+numpget	bget.c	/^static long numpget = 0, numprel = 0; \/* Number of block gets and rels *\/$/;"	v	file:
+numprel	bget.c	/^static long numpget = 0, numprel = 0; \/* Number of block gets and rels *\/$/;"	v	file:
+numrel	bget.c	/^static long numget = 0, numrel = 0;   \/* Number of bget() and brel() calls *\/$/;"	v	file:
+ops	vfs.c	/^    struct Filesystem_Ops *ops;$/;"	m	struct:Filesystem	typeref:struct:Filesystem::Filesystem_Ops	file:
+params	floppy.c	/^    struct Floppy_Parameters *params;$/;"	m	struct:Floppy_Drive	typeref:struct:Floppy_Drive::Floppy_Parameters	file:
+pool_len	bget.c	/^static bufsize pool_len = 0;	      \/* 0: no bpool calls have been made$/;"	v	file:
+pop	lowlevel.asm	/^	pop	ds$/;"	d
+prevfree	bget.c	/^    bufsize prevfree;		      \/* Relative link back to previous$/;"	m	struct:bhead	file:
+protect	bget.c	/^static int protect = 0; 	      \/* Disable compaction during bgetr() *\/$/;"	v	file:
+push	lowlevel.asm	/^	push	ds$/;"	d
+ql	bget.c	/^    struct qlinks ql;		      \/* Links on free list *\/$/;"	m	struct:bfhead	typeref:struct:bfhead::qlinks	file:
+qlinks	bget.c	/^struct qlinks {$/;"	s	file:
+rand	bget.c	/^int rand()$/;"	f
+readDone	bootsect.asm	/^readDone:$/;"	l
+readDriveConfig	ide.c	/^static int readDriveConfig(int drive)$/;"	f	file:
+readRetry	bootsect.asm	/^readRetry:$/;"	l
+relfcn	bget.c	/^static void (*relfcn) _((void *buf)) = NULL;$/;"	v	file:
+rootDir	pfat.c	/^    directoryEntry *rootDir;$/;"	m	struct:PFAT_Instance	file:
+rootDirEntry	pfat.c	/^    directoryEntry rootDirEntry;$/;"	m	struct:PFAT_Instance	file:
+row	screen.c	/^    int row, col;$/;"	m	struct:Console_State	file:
+s_GDT	gdt.c	/^static struct Segment_Descriptor s_GDT[ NUM_GDT_ENTRIES ];$/;"	v	typeref:struct:Segment_Descriptor	file:
+s_IDT	idt.c	/^static union IDT_Descriptor s_IDT[ NUM_IDT_ENTRIES ];$/;"	v	typeref:union:IDT_Descriptor	file:
+s_allThreadList	kthread.c	/^static struct All_Thread_List s_allThreadList;$/;"	v	typeref:struct:All_Thread_List	file:
+s_allocated	dma.c	/^static uchar_t s_allocated;	 \/*!< Which channels have been allocated. *\/$/;"	v	file:
+s_ansiToVgaColor	screen.c	/^static const uchar_t s_ansiToVgaColor[] = {$/;"	v	file:
+s_blockdevLock	blockdev.c	/^static struct Mutex s_blockdevLock;$/;"	v	typeref:struct:Mutex	file:
+s_cons	screen.c	/^static struct Console_State s_cons;$/;"	v	typeref:struct:Console_State	file:
+s_deviceList	blockdev.c	/^static struct Block_Device_List s_deviceList;$/;"	v	typeref:struct:Block_Device_List	file:
+s_dmaPageRegisterList	dma.c	/^static const uchar_t s_dmaPageRegisterList[] = {$/;"	v	file:
+s_driveTable	floppy.c	/^struct Floppy_Drive s_driveTable[2];$/;"	v	typeref:struct:Floppy_Drive
+s_filesystemList	vfs.c	/^static struct Filesystem_List s_filesystemList;$/;"	v	typeref:struct:Filesystem_List	file:
+s_floppyDeviceOps	floppy.c	/^static struct Block_Device_Ops s_floppyDeviceOps = {$/;"	v	typeref:struct:Block_Device_Ops	file:
+s_floppyParamsTable	floppy.c	/^static struct Floppy_Parameters s_floppyParamsTable[] = {$/;"	v	typeref:struct:Floppy_Parameters	file:
+s_floppyRequestQueue	floppy.c	/^static struct Block_Request_List s_floppyRequestQueue;$/;"	v	typeref:struct:Block_Request_List	file:
+s_floppyWaitQueue	floppy.c	/^static struct Thread_Queue s_floppyWaitQueue;$/;"	v	typeref:struct:Thread_Queue	file:
+s_freeList	mem.c	/^static struct Page_List s_freeList;$/;"	v	typeref:struct:Page_List	file:
+s_graveyardQueue	kthread.c	/^static struct Thread_Queue s_graveyardQueue;$/;"	v	typeref:struct:Thread_Queue	file:
+s_ideDeviceOps	ide.c	/^static struct Block_Device_Ops s_ideDeviceOps = {$/;"	v	typeref:struct:Block_Device_Ops	file:
+s_ideRequestQueue	ide.c	/^struct Block_Request_List s_ideRequestQueue;$/;"	v	typeref:struct:Block_Request_List
+s_ideWaitQueue	ide.c	/^struct Thread_Queue s_ideWaitQueue;$/;"	v	typeref:struct:Thread_Queue
+s_interruptOccurred	floppy.c	/^static volatile int s_interruptOccurred;$/;"	v	file:
+s_irqMask	irq.c	/^static ushort_t s_irqMask = 0xfffb;$/;"	v	file:
+s_mountPointList	vfs.c	/^static struct Mount_Point_List s_mountPointList;$/;"	v	typeref:struct:Mount_Point_List	file:
+s_numAllocated	gdt.c	/^static int s_numAllocated = 0;$/;"	v	file:
+s_numPages	mem.c	/^int unsigned s_numPages;$/;"	v
+s_outputSink	screen.c	/^static struct Output_Sink s_outputSink = { &Print_Emit, &Print_Finish };$/;"	v	typeref:struct:Output_Sink	file:
+s_pagingDevice	vfs.c	/^static struct Paging_Device *s_pagingDevice;$/;"	v	typeref:struct:Paging_Device	file:
+s_pfatDirOps	pfat.c	/^static struct File_Ops s_pfatDirOps = {$/;"	v	typeref:struct:File_Ops	file:
+s_pfatFileOps	pfat.c	/^static struct File_Ops s_pfatFileOps = {$/;"	v	typeref:struct:File_Ops	file:
+s_pfatFilesystemOps	pfat.c	/^static struct Filesystem_Ops s_pfatFilesystemOps = {$/;"	v	typeref:struct:Filesystem_Ops	file:
+s_pfatMountPointOps	pfat.c	/^struct Mount_Point_Ops s_pfatMountPointOps = {$/;"	v	typeref:struct:Mount_Point_Ops
+s_queue	keyboard.c	/^static Keycode s_queue[QUEUE_SIZE];$/;"	v	file:
+s_queueHead	keyboard.c	/^static int s_queueHead, s_queueTail;$/;"	v	file:
+s_queueTail	keyboard.c	/^static int s_queueHead, s_queueTail;$/;"	v	file:
+s_reaperWaitQueue	kthread.c	/^static struct Thread_Queue s_reaperWaitQueue;$/;"	v	typeref:struct:Thread_Queue	file:
+s_runQueue	kthread.c	/^static struct Thread_Queue s_runQueue;$/;"	v	typeref:struct:Thread_Queue	file:
+s_scanTableNoShift	keyboard.c	/^static const Keycode s_scanTableNoShift[] = {$/;"	v	file:
+s_scanTableWithShift	keyboard.c	/^static const Keycode s_scanTableWithShift[] = {$/;"	v	file:
+s_shiftState	keyboard.c	/^static unsigned s_shiftState = 0;$/;"	v	file:
+s_spinCountPerTick	timer.c	/^static int s_spinCountPerTick;$/;"	v	file:
+s_theTSS	tss.c	/^static struct TSS s_theTSS;$/;"	v	typeref:struct:TSS	file:
+s_tlocalDestructors	kthread.c	/^static tlocal_destructor_t s_tlocalDestructors[MAX_TLOCAL_KEYS];$/;"	v	file:
+s_tlocalKeyCounter	kthread.c	/^static unsigned int s_tlocalKeyCounter = 0;$/;"	v	file:
+s_transferBuf	floppy.c	/^static uchar_t *s_transferBuf;$/;"	v	file:
+s_tssDesc	tss.c	/^static struct Segment_Descriptor *s_tssDesc;$/;"	v	typeref:struct:Segment_Descriptor	file:
+s_tssSelector	tss.c	/^static ushort_t s_tssSelector;$/;"	v	file:
+s_vfsLock	vfs.c	/^static struct Mutex s_vfsLock;$/;"	v	typeref:struct:Mutex	file:
+s_waitQueue	keyboard.c	/^static struct Thread_Queue s_waitQueue;$/;"	v	typeref:struct:Thread_Queue	file:
+saveCol	screen.c	/^    int saveRow, saveCol;$/;"	m	struct:Console_State	file:
+saveRow	screen.c	/^    int saveRow, saveCol;$/;"	m	struct:Console_State	file:
+sec	bootsect.asm	/^sec: dw 0$/;"	d
+sec	fd_boot.asm	/^sec: dw 0$/;"	d
+sec_count	bootsect.asm	/^sec_count: dw 0$/;"	d
+sec_count	fd_boot.asm	/^sec_count: dw 0$/;"	d
+sectorSizeCode	floppy.c	/^    int sectorSizeCode;$/;"	m	struct:Floppy_Parameters	file:
+sectors	floppy.c	/^    int sectors;$/;"	m	struct:Floppy_Parameters	file:
+sectorsPerTrack	bootsect.asm	/^sectorsPerTrack:	dw SECTORS_PER_TRACK$/;"	d
+setupSize	bootsect.asm	/^setupSize:$/;"	l
+setupSize	fd_boot.asm	/^setupSize:$/;"	l
+setupStart	bootsect.asm	/^setupStart:		$/;"	l
+setupStart	fd_boot.asm	/^setupStart:		$/;"	l
+setup_32	setup.asm	/^setup_32:$/;"	l
+srand	bget.c	/^void srand(seed)$/;"	f
+start_setup	setup.asm	/^start_setup:$/;"	l
+state	screen.c	/^    enum State state;$/;"	m	struct:Console_State	typeref:enum:Console_State::State	file:
+stats	bget.c	/^static void stats(when)$/;"	f	file:
+totalloc	bget.c	/^static bufsize totalloc = 0;	      \/* Total space currently allocated *\/$/;"	v	file:
+track	bootsect.asm	/^track: dw 0$/;"	d
+track	fd_boot.asm	/^track: dw 0$/;"	d
+tsize	bget.c	/^    bufsize tsize;		      \/* Total size, including overhead *\/$/;"	m	struct:bdhead	file:
+validBlockSet	pfat.c	/^    struct Bit_Set *validBlockSet;	 \/* Which data blocks of cache are valid *\/$/;"	m	struct:PFAT_File	typeref:struct:PFAT_File::Bit_Set	file:
